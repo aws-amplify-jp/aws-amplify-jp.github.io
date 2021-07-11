@@ -21,7 +21,7 @@ export default function Header() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Amplify Japan User Group
+            <Link href="/" color="inherit">Amplify Japan User Group</Link>
           </Typography>
           <EventIcon />
           <Link href="/events" color="inherit">
