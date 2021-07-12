@@ -18,8 +18,12 @@ jobs:
         env:
           ID_ED25519_GITHUB_ACTIONS: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
         run: |
-          echo "$ID_ED25519_GITHUB_ACTIONS" > ~/id_rsa.pem
-          chmod 600 ~/id_rsa.pem
+          mkdir -p ~/.ssh
+          echo "$ID_ED25519_GITHUB_ACTIONS" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          eval $(ssh-agent -s)
+          ssh-add ~/.ssh/id_rsa
+          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
           git config --local user.name 'GitHub Actions'
           git config --local user.email 'actions@example.com'
           git remote set-url origin git@github.com:aws-amplify-jp/aws-amplify-jp.github.io.git
