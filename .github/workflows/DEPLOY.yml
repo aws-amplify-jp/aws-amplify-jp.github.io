@@ -1,0 +1,27 @@
+name: DEPLOY
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: npm install
+        run: |
+          npm ci
+      - name: checkout deploy repository
+        uses: actions/checkout@v2
+        with:
+          repository: aws-amplify-jp/aws-amplify-jp.github.io
+          fetch-depth: 2
+          ssh-key: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
+      - name: deploy
+        run: |
+          git config --local user.name 'GitHub Actions'
+          git config --local user.email 'actions@example.com'
+          npm run deploy
