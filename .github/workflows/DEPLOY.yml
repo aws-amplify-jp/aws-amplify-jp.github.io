@@ -9,11 +9,6 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      - name: npm install
-        run: |
-          npm install
       - name: checkout deploy repository
         uses: actions/checkout@v2
         with:
@@ -24,4 +19,5 @@ jobs:
         run: |
           git config --local user.name 'GitHub Actions'
           git config --local user.email 'actions@example.com'
+          npm install
           npm run deploy
