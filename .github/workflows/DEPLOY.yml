@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
+        with:
+          repository: aws-amplify-jp/aws-amplify-jp.github.io
+          ssh-key: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
       - name: setup
         env:
           ID_ED25519_GITHUB_ACTIONS: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
