@@ -9,16 +9,18 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout deploy repository
+      - name: checkout
         uses: actions/checkout@v2
-        with:
-          repository: aws-amplify-jp/aws-amplify-jp.github.io
-          ssh-key: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
-      - name: deploy
+      - name: setup
+        env:
+          ID_ED25519_GITHUB_ACTIONS: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
         run: |
-          git remote rm origin
-          git remote add origin git@github.com:aws-amplify-jp/aws-amplify-jp.github.io.git
+          echo "$ID_ED25519_GITHUB_ACTIONS" > ~/id_rsa.pem
+          chmod 600 ~/id_rsa.pem
           git config --local user.name 'GitHub Actions'
           git config --local user.email 'actions@example.com'
+          git remote set-url origin git@github.com:aws-amplify-jp/aws-amplify-jp.github.io.git
+      - name: deploy
+        run: |
           npm install
           npm run deploy
