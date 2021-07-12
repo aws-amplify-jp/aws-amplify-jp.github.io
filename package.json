@@ -10,10 +10,12 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
+    "prebuild": "gatsby clean",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby clean && gatsby build && gh-pages -d public -b main",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public -b main",
     "lint": "prettier --write src"
   },
   "dependencies": {
