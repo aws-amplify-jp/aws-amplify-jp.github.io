@@ -12,8 +12,7 @@ jobs:
       - name: checkout deploy repository
         uses: actions/checkout@v2
         with:
-          repository: aws-amplify-jp/aws-amplify-jp.github.io
-          fetch-depth: 2
+          repository: git@github.com:aws-amplify-jp/aws-amplify-jp.github.io.git
           ssh-key: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
       - name: deploy
         run: |
