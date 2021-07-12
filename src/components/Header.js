@@ -21,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "stretch",
   },
+  title: {
+    fontSize: '1.1rem'
+  },
   mobile: {
     display: "none",
     [theme.breakpoints.up("sm")]: {
@@ -37,7 +40,7 @@ export default function Header() {
         <Container>
           <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
-              <Typography variant="h6">
+              <Typography variant="h6" className={classes.title}>
                 <Link href="/" color="inherit" className={classes.logo}>
                   <img
                     width="26"
@@ -48,6 +51,7 @@ export default function Header() {
                   &nbsp;
                   <span className={classes.mobile}>
                     Amplify 日本ユーザーグループ
+                    &nbsp;
                   </span>
                   <span role="img" aria-label="日本国旗">
                     🇯🇵
