@@ -18,12 +18,12 @@ const useStyles = makeStyles((theme) => ({
     verticalAlign: "middle",
   },
   logo: {
-    display: 'flex',
-    alignItems: 'stretch'
+    display: "flex",
+    alignItems: "stretch",
   },
   mobile: {
     display: "none",
-    [theme.breakpoints.up("md")]: {
+    [theme.breakpoints.up("sm")]: {
       display: "inline",
     },
   },
@@ -39,10 +39,19 @@ export default function Header() {
             <Grid item>
               <Typography variant="h6">
                 <Link href="/" color="inherit" className={classes.logo}>
-                  <img width="26" height="26" alt="Amplifyのロゴ" src={LogoIcon} />
+                  <img
+                    width="26"
+                    height="26"
+                    alt="Amplifyのロゴ"
+                    src={LogoIcon}
+                  />
                   &nbsp;
-                  <span className={classes.mobile}>Amplify 日本ユーザーグループ</span>
-                  <span role="img" aria-label="日本国旗">🇯🇵</span>
+                  <span className={classes.mobile}>
+                    Amplify 日本ユーザーグループ
+                  </span>
+                  <span role="img" aria-label="日本国旗">
+                    🇯🇵
+                  </span>
                 </Link>
               </Typography>
             </Grid>
