@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "@material-ui/core";
+import { Container, Box } from "@material-ui/core";
 import Title from "../components/Title";
 import Style from "../components/Style";
 import Header from "../components/Header";
@@ -12,6 +12,7 @@ export default function Default({ title, children }) {
       <Style>
         <Header />
         <Container>{children}</Container>
+        <Box mb={5} />
         <Footer />
       </Style>
     </>
