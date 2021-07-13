@@ -1,5 +1,6 @@
 import { createTheme } from "@material-ui/core/styles";
-import './font.css';
+import "./font.css";
+import "./table.css";
 
 export default createTheme({
   palette: {
