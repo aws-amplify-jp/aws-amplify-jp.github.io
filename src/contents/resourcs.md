@@ -123,7 +123,7 @@ title: "リソース"
 
 ### コントリビュート
 
-コントリビュートは歓迎です。[ガイドライン](contributing.md) を読んでみてください。
+コントリビュートは歓迎です。[ガイドライン](https://github.com/aws-amplify-jp/awesome-aws-amplify-ja/blob/main/contributing.md) を読んでみてください。
 
 ### 記事検索
 
