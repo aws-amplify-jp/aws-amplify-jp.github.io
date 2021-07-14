@@ -1,6 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Container, Box, Link, Grid } from "@material-ui/core";
+import { Container, Box, Grid } from "@material-ui/core";
+import Link from './common/Link'
+import Theme from '../styles/theme'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -26,7 +28,7 @@ export default function Footer() {
           <Box mx="auto" m={1}>
             <Grid container spacing={3} justifyContent="center">
               <Grid item>
-                <Link className={classes.link} href="/coc">
+              <Link to="/coc" className={classes.link}>
                   行動規範
                 </Link>
               </Grid>
