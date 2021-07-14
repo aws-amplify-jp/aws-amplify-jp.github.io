@@ -17,21 +17,24 @@ export default function Footer() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Container>
-        <Box mx="auto" m={1}>
-          <Grid container spacing={3} justifyContent="center">
-            <Grid item>
-              <Link href="https://github.com/aws-amplify-jp/aws-amplify-jp.github.io" primary>
-                Feedback
-              </Link>
+    <>
+      <Box mb={5} />
+      <div className={classes.root}>
+        <Container>
+          <Box mx="auto" m={1}>
+            <Grid container spacing={3} justifyContent="center">
+              <Grid item>
+                <Link  href="https://github.com/aws-amplify-jp/aws-amplify-jp.github.io" primary>
+                  Feedback
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link to="/coc" primary>CoC</Link>
+              </Grid>
             </Grid>
-            <Grid item>
-              <Link to="/coc" primary>CoC</Link>
-            </Grid>
-          </Grid>
-        </Box>
-      </Container>
-    </div>
+          </Box>
+        </Container>
+      </div>
+    </>
   );
 }
