@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Box, Grid } from "@material-ui/core";
 import Link from './common/Link'
-import Theme from '../styles/theme'
 
 const useStyles = makeStyles((theme) => ({
   root: {
