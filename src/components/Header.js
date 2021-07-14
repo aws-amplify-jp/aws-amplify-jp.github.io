@@ -59,7 +59,12 @@ export default function Header() {
               </Typography>
             </Grid>
             <Grid item>
-              <Grid container justifyContent="flex-end" alignItems="center" spacing={1}>
+              <Grid
+                container
+                justifyContent="flex-end"
+                alignItems="center"
+                spacing={1}
+              >
                 <Grid item>
                   <Link href="/events" color="inherit">
                     <EventIcon className={classes.icon} />

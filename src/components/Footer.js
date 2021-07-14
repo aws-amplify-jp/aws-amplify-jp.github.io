@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
   link: {
     color: theme.palette.primary.contrastText,
-  }
+  },
 }));
 
 export default function Footer() {
@@ -26,10 +26,15 @@ export default function Footer() {
           <Box mx="auto" m={1}>
             <Grid container spacing={3} justifyContent="center">
               <Grid item>
-                <Link className={classes.link} href="/coc">行動規範</Link>
+                <Link className={classes.link} href="/coc">
+                  行動規範
+                </Link>
               </Grid>
               <Grid item>
-                <Link className={classes.link} href="https://github.com/aws-amplify-jp/aws-amplify-jp.github.io">
+                <Link
+                  className={classes.link}
+                  href="https://github.com/aws-amplify-jp/aws-amplify-jp.github.io"
+                >
                   フィードバック
                 </Link>
               </Grid>
