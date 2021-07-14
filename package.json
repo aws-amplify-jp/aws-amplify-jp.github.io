@@ -8,14 +8,14 @@
     "gatsby"
   ],
   "scripts": {
-    "prestart": "node scripts/fetchContents.js",
+    "prestart": "npm run fetch:contents",
     "start": "gatsby develop",
-    "prebuild": "node scripts/fetchContents.js",
+    "prebuild": "npm run fetch:contents",
     "build": "gatsby clean && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "prettier --write src scripts gatsby-config.js",
-    "fetch": "node scripts/fetch.js"
+    "fetch:contents": "node scripts/fetchContents.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.1",
