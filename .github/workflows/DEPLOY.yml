@@ -2,32 +2,24 @@ name: DEPLOY
 
 on:
   push:
-    branches: [ develop ]
-  workflow_dispatch:
+    branches: "develop"
 
 jobs:
-  build_and_deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v1
         with:
-          repository: aws-amplify-jp/aws-amplify-jp.github.io
-          ssh-key: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
-      - name: setup
-        env:
-          ID_ED25519_GITHUB_ACTIONS: ${{ secrets.ID_ED25519_GITHUB_ACTIONS }}
-        run: |
-          mkdir -p ~/.ssh
-          echo "$ID_ED25519_GITHUB_ACTIONS" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          eval $(ssh-agent -s)
-          ssh-add ~/.ssh/id_rsa
-          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-          git config --local user.name 'GitHub Actions'
-          git config --local user.email 'actions@example.com'
-          git remote set-url origin git@github.com:aws-amplify-jp/aws-amplify-jp.github.io.git
-      - name: deploy
-        run: |
-          npm install
-          npm run deploy
+          node-version: 14.x
+      - name: npm install
+        run: npm ci
+      - name: Build App
+        run: npm run build
+      - name: App Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: main
