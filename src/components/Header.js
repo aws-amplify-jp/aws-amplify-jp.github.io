@@ -8,7 +8,7 @@ import {
   Typography,
   Box,
 } from "@material-ui/core";
-import Link from './common/Link'
+import Link from './Link'
 import EventIcon from "@material-ui/icons/Event";
 import DescriptionIcon from "@material-ui/icons/Description";
 import LogoIcon from "../images/logo.svg";

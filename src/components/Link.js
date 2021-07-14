@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core'
 import { Link as GatsbyLink } from 'gatsby'
-import Theme from '../../styles/theme'
+import Theme from '../styles/theme'
 import classnames from 'classnames'
 
 const useStyles = makeStyles((_) => ({
