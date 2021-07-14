@@ -3,6 +3,9 @@ name: DEPLOY
 on:
   push:
     branches: "develop"
+  schedule:
+    # 15:00 in UTC is 24:00 in JST
+    - cron: '0 15 * * *'
 
 jobs:
   build:
