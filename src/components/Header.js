@@ -6,9 +6,9 @@ import {
   Grid,
   Toolbar,
   Typography,
-  Link,
   Box,
 } from "@material-ui/core";
+import Link from './common/Link'
 import EventIcon from "@material-ui/icons/Event";
 import DescriptionIcon from "@material-ui/icons/Description";
 import LogoIcon from "../images/logo.svg";
@@ -41,7 +41,7 @@ export default function Header() {
           <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
               <Typography variant="h6" className={classes.title}>
-                <Link href="/" color="inherit" className={classes.logo}>
+                <Link to="/" color="inherit" className={classes.logo}>
                   <img
                     width="26"
                     height="26"
@@ -62,7 +62,7 @@ export default function Header() {
             <Grid item>
               <Grid container justifyContent="flex-end" alignItems="center">
                 <Grid item>
-                  <Link href="/events" color="inherit">
+                  <Link to="/events">
                     <EventIcon className={classes.icon} />
                     イベント
                   </Link>
@@ -71,7 +71,7 @@ export default function Header() {
                   <Box m={1} />
                 </Grid>
                 <Grid item>
-                  <Link href="/resources" color="inherit">
+                  <Link to="/resources">
                     <DescriptionIcon className={classes.icon} />
                     リソース
                   </Link>
