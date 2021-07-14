@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Amplify利用企業一覧",
+    "slug": "/companies",
+    "url": "https://raw.githubusercontent.com/aws-amplify-jp/who-use-amplify-in-japan/main/README.md"
+  },
+  {
+    "name": "Amplify学習リソース集",
+    "slug": "/resources",
+    "url": "https://raw.githubusercontent.com/aws-amplify-jp/awesome-aws-amplify-ja/main/readme.md"
+  }
+]

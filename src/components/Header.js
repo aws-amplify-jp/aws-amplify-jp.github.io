@@ -7,11 +7,11 @@ import {
   Toolbar,
   Typography,
   Link,
-  Box,
 } from "@material-ui/core";
 import EventIcon from "@material-ui/icons/Event";
 import DescriptionIcon from "@material-ui/icons/Description";
 import LogoIcon from "../images/logo.svg";
+import BusinessIcon from "@material-ui/icons/Business";
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -59,7 +59,12 @@ export default function Header() {
               </Typography>
             </Grid>
             <Grid item>
-              <Grid container justifyContent="flex-end" alignItems="center">
+              <Grid
+                container
+                justifyContent="flex-end"
+                alignItems="center"
+                spacing={1}
+              >
                 <Grid item>
                   <Link href="/events" color="inherit">
                     <EventIcon className={classes.icon} />
@@ -67,12 +72,15 @@ export default function Header() {
                   </Link>
                 </Grid>
                 <Grid item>
-                  <Box m={1} />
-                </Grid>
-                <Grid item>
                   <Link href="/resources" color="inherit">
                     <DescriptionIcon className={classes.icon} />
                     リソース
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link href="/companies" color="inherit">
+                    <BusinessIcon className={classes.icon} />
+                    利用企業
                   </Link>
                 </Grid>
               </Grid>

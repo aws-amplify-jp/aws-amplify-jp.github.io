@@ -8,13 +8,14 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
+    "prestart": "npm run fetch:contents",
     "start": "gatsby develop",
-    "prebuild": "gatsby clean",
-    "build": "gatsby build",
+    "prebuild": "npm run fetch:contents",
+    "build": "gatsby clean && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "prettier --write src"
+    "lint": "prettier --write src scripts gatsby-config.js",
+    "fetch:contents": "node scripts/fetchContents.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.1",
@@ -30,6 +31,9 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "gatsby-plugin-material-ui": "^3.0.1"
+    "gatsby-plugin-material-ui": "^3.0.1",
+    "glob": "^7.1.7",
+    "node-fetch": "^2.6.1",
+    "uuid": "^3.4.0"
   }
 }

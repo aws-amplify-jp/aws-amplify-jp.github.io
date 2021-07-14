@@ -1,3 +1,7 @@
 node_modules/
 .cache/
 public
+
+src/contents/external/*
+!src/contents/external/.gitkeep
+!src/contents/external/mapping.json

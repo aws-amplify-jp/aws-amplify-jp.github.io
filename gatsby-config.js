@@ -8,10 +8,14 @@ module.exports = {
       options: {
         name: `markdown-pages`,
         path: `${__dirname}/src/contents`,
+        ignore: [
+          `src/contents/external/mapping.json`,
+          `src/contents/external/.gitkeep`,
+        ],
       },
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-material-ui`
+    `gatsby-plugin-material-ui`,
   ],
 };
