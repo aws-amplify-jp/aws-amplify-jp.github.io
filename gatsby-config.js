@@ -8,7 +8,7 @@ module.exports = {
       options: {
         name: `markdown-pages`,
         path: `${__dirname}/src/contents`,
-        ignore: [`src/contents/mapping.json`, `src/contents/.gitkeep`],
+        ignore: [`src/contents/external/mapping.json`, `src/contents/external/.gitkeep`],
       },
     },
     `gatsby-transformer-remark`,
