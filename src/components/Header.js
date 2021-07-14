@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "stretch",
   },
   title: {
-    fontSize: '1.1rem'
+    fontSize: "1.1rem",
   },
   mobile: {
     display: "none",
@@ -50,8 +50,7 @@ export default function Header() {
                   />
                   &nbsp;
                   <span className={classes.mobile}>
-                    Amplify 日本ユーザーグループ
-                    &nbsp;
+                    Amplify 日本ユーザーグループ &nbsp;
                   </span>
                   <span role="img" aria-label="日本国旗">
                     🇯🇵
