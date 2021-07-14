@@ -1,6 +1,5 @@
 table {
   background-color: #fff;
-  min-width: 650px;
   display: table;
   border: solid 1px #e5e5e5;
   border-collapse: collapse;
@@ -13,4 +12,5 @@ table th {
 th,
 td {
   padding: 16px;
+  word-break : break-all;
 }
