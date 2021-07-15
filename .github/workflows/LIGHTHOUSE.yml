@@ -1,13 +1,9 @@
 name: LIGHTHOUSE
 
 on:
-  push:
-    branches:
-      - lighthouse # for operation verification. remove this before merge into develop
   pull_request:
     branches:
       - develop
-      - lighthouse # for operation verification. remove this before merge into develop
 
 jobs:
   lighthouse:
