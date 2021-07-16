@@ -1,10 +1,9 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core'
 import { Link as GatsbyLink } from 'gatsby'
-import Theme from '../styles/theme'
 import classnames from 'classnames'
 
-const useStyles = makeStyles((_) => ({
+const useStyles = makeStyles((theme) => ({
   anchor: {
     color: 'inherit',
     textDecoration: 'none',
@@ -12,12 +11,15 @@ const useStyles = makeStyles((_) => ({
       textDecoration: 'underline',
     },
     '&.primary': {
-      color: Theme.palette.primary.main
+      color: theme.palette.primary.main
+    },
+    '&.contrast': {
+      color: theme.palette.primary.contrastText
     }
   },
 }));
 
-export default function Link({ children, primary, ...all }) {
+export default function Link({ children, primary, contrast, ...all }) {
   const classes = useStyles();
 
   let isExternal = false
@@ -27,8 +29,14 @@ export default function Link({ children, primary, ...all }) {
   if (all.href && all.href.startsWith('https')) {
     isExternal = true
   }
+  if (isExternal && all.to) {
+    console.error(`External links should use 'href'.`)
+  }
+  if (!isExternal && all.href) {
+    console.error(`Internal links should use 'to'.`)
+  }
 
-  const anchorClass = classnames(classes.anchor, all.className, { primary })
+  const anchorClass = classnames(classes.anchor, all.className, { primary }, { contrast })
 
   return (
     <>

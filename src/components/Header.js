@@ -6,11 +6,7 @@ import {
   Grid,
   Toolbar,
   Typography,
-<<<<<<< HEAD
-  Link,
-=======
   Box,
->>>>>>> 415bc40... feat : add link component
 } from "@material-ui/core";
 import Link from './Link'
 import EventIcon from "@material-ui/icons/Event";
@@ -77,20 +73,16 @@ export default function Header() {
                   </Link>
                 </Grid>
                 <Grid item>
-<<<<<<< HEAD
-                  <Link href="/resources" color="inherit">
-=======
                   <Box m={1} />
                 </Grid>
                 <Grid item>
                   <Link to="/resources">
->>>>>>> 415bc40... feat : add link component
                     <DescriptionIcon className={classes.icon} />
                     リソース
                   </Link>
                 </Grid>
                 <Grid item>
-                  <Link href="/companies" color="inherit">
+                  <Link to="/companies" color="inherit">
                     <BusinessIcon className={classes.icon} />
                     利用企業
                   </Link>
