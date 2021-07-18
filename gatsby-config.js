@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Amplify Japan User Group",
+    title: `Amplify Japan User Group`,
+    siteUrl: `https://aws-amplify-jp.github.io`,
   },
   plugins: [
     {
@@ -17,5 +18,6 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-material-ui`,
+    `gatsby-plugin-sitemap`
   ],
 };
