@@ -14,7 +14,9 @@
     "build": "gatsby clean && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "prettier --write src scripts gatsby-config.js",
+    "test": "npm run lint",
+    "lint": "prettier src scripts gatsby-config.js",
+    "lint:fix": "prettier --write src scripts gatsby-config.js",
     "fetch:contents": "node scripts/fetchContents.js"
   },
   "dependencies": {
