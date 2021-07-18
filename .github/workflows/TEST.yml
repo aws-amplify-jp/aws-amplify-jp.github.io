@@ -1,4 +1,4 @@
-name: LIGHTHOUSE
+name: TEST
 
 on:
   pull_request:
@@ -16,8 +16,10 @@ jobs:
           node-version: 14.x
       - name: Use the latest npm
         run: npm i -g npm
-      - name: npm install
+      - name: Run npm install
         run: npm ci
+      - name: Run npm test
+        run: npm test
       - name: Build App
         run: npm run build
       - name: Run Lighthouse against to a static dist dir

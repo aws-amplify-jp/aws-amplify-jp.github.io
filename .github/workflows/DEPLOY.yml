@@ -18,9 +18,9 @@ jobs:
           node-version: 14.x
       - name: Use the latest npm
         run: npm i -g npm
-      - name: npm install
+      - name: Run npm install
         run: npm ci
-      - name: Build App
+      - name: Run Build App
         run: npm run build
       - name: App Deploy
         uses: peaceiris/actions-gh-pages@v3
