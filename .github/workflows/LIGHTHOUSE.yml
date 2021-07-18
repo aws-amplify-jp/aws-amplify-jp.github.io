@@ -1,0 +1,28 @@
+name: LIGHTHOUSE
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: npm ci
+      - name: Build App
+        run: npm run build
+      - name: Run Lighthouse against a static dist dir
+        uses: treosh/lighthouse-ci-action@v7
+        with:
+          configPath: ./.lighthouse.js
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
