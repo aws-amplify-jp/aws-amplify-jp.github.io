@@ -6,9 +6,8 @@ import {
   Grid,
   Toolbar,
   Typography,
-  Box,
 } from "@material-ui/core";
-import Link from './Link'
+import Link from "./Link";
 import EventIcon from "@material-ui/icons/Event";
 import DescriptionIcon from "@material-ui/icons/Description";
 import LogoIcon from "../images/logo.svg";
@@ -71,9 +70,6 @@ export default function Header() {
                     <EventIcon className={classes.icon} />
                     イベント
                   </Link>
-                </Grid>
-                <Grid item>
-                  <Box m={1} />
                 </Grid>
                 <Grid item>
                   <Link to="/resources">
