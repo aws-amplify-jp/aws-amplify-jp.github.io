@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Box, Grid } from "@material-ui/core";
-import Link from './Link'
+import Link from "./Link";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     backgroundColor: theme.palette.primary.main,
     height: "36px",
-  }
+  },
 }));
 
 export default function Footer() {
@@ -29,7 +29,10 @@ export default function Footer() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="https://github.com/aws-amplify-jp/aws-amplify-jp.github.io" contrast>
+                <Link
+                  href="https://github.com/aws-amplify-jp/aws-amplify-jp.github.io"
+                  contrast
+                >
                   フィードバック
                 </Link>
               </Grid>
