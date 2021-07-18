@@ -18,7 +18,7 @@ jobs:
         run: npm i -g npm
       - name: Run npm install
         run: npm ci
-      - name: RUn npm test
+      - name: Run npm test
         run: npm test
       - name: Build App
         run: npm run build
