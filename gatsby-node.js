@@ -10,14 +10,17 @@ const fetchContributors = async (owner, repo) => {
 };
 
 exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
-  const contributors = await fetchContributors('aws-amplify-jp', 'aws-amplify-jp.github.io');
+  const owner = "aws-amplify-jp";
+  const repo = "aws-amplify-jp.github.io";
+  const contributors = await fetchContributors(owner, repo);
 
   contributors.forEach(contributor => {
     const {login, avatar_url, html_url} = contributor;
     actions.createNode({
-      login,
-      avatar_url,
-      html_url,
+      contributeTo: `${owner}/${repo}`,
+      name: login,
+      avatar: avatar_url,
+      url: html_url,
       id: createNodeId(`Contributor-${login}`),
       internal: {
         type: "Contributor",
