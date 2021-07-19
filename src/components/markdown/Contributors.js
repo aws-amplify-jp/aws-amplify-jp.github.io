@@ -25,6 +25,7 @@ export default function Contributors() {
       allContributor {
         edges {
           node {
+            contributeTo
             avatar
             url
             name
@@ -33,24 +34,30 @@ export default function Contributors() {
       }
     }
   `);
-  const contributors = query.allContributor.edges;
 
-  return (
-    <ul className={classes.list}>
-      {contributors.map(({ node }) => (
-        <Tooltip title={node.name} arrow>
-          <li key={node.name}>
-            <Link href={node.url}>
-              <Avatar
-                alt={node.name}
-                src={node.avatar}
-                key={node.name}
-                className={classes.avatar}
-              />
-            </Link>
-          </li>
-        </Tooltip>
-      ))}
-    </ul>
-  );
+  const repositoryList = query.allContributor.edges.reduce((acc, { node }) => {
+    const { contributeTo } = node;
+    if (!acc[contributeTo]) {
+      acc[contributeTo] = [];
+    }
+    acc[contributeTo].push(node);
+    return acc;
+  }, {});
+
+  return Object.keys(repositoryList).map((repository) => (
+    <div key={repository}>
+      <h3>{repository}</h3>
+      <ul className={classes.list}>
+        {repositoryList[repository].map(({ name, avatar, url }) => (
+          <Tooltip title={name} arrow key={name}>
+            <li>
+              <Link href={url}>
+                <Avatar alt={name} src={avatar} className={classes.avatar} />
+              </Link>
+            </li>
+          </Tooltip>
+        ))}
+      </ul>
+    </div>
+  ));
 }

@@ -12,4 +12,4 @@ slug: "/"
 
 ## Contributors
 
-<md-contributors></md-contributors>
+<md-contributors />
