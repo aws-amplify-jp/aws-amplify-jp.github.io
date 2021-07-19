@@ -9,3 +9,7 @@ slug: "/"
 <コミュニティの目的>
 
 <運営メンバー>
+
+## Contributors
+
+<md-contributors></md-contributors>
