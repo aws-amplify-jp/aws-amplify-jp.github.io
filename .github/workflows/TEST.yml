@@ -23,7 +23,7 @@ jobs:
       - name: Build App
         run: npm run build
       - name: Run Lighthouse against to a static dist dir
-        uses: treosh/lighthouse-ci-action@v7
+        uses: treosh/lighthouse-ci-action@v8
         with:
           configPath: ./.lighthouse.js
           uploadArtifacts: true
