@@ -15,9 +15,14 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-component`],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-material-ui`,
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
   ],
 };
