@@ -2,27 +2,31 @@ const { Octokit } = require("@octokit/core");
 
 const fetchContributors = async (owner, repo) => {
   const octokit = new Octokit();
-  const { data } = await octokit.request('GET /repos/{owner}/{repo}/contributors', {
-    owner,
-    repo
-  });
+  const { data } = await octokit.request(
+    "GET /repos/{owner}/{repo}/contributors",
+    {
+      owner,
+      repo,
+    }
+  );
   return data;
 };
 
-exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
+exports.sourceNodes = async ({
+  actions,
+  createNodeId,
+  createContentDigest,
+}) => {
   //
   // Create nodes for all of the contributors
   //
   const owner = "aws-amplify-jp";
-  const repositoryList = [
-    "aws-amplify-jp.github.io",
-    "awesome-aws-amplify-ja",
-  ];
+  const repositoryList = ["aws-amplify-jp.github.io", "awesome-aws-amplify-ja"];
 
   for (const repo of repositoryList) {
     const contributors = await fetchContributors(owner, repo);
-    contributors.forEach(contributor => {
-      const {login, avatar_url, html_url} = contributor;
+    contributors.forEach((contributor) => {
+      const { login, avatar_url, html_url } = contributor;
       const repository = `${owner}/${repo}`;
       actions.createNode({
         contributeTo: repository,
@@ -34,7 +38,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
           type: "Contributor",
           contentDigest: createContentDigest(contributor),
         },
-      })
-    })
+      });
+    });
   }
-}
+};
