@@ -18,12 +18,12 @@ AWS Amplify の利用方法、実運用含めた開発時の知見や課題、�
 
 ## 運営メンバー
 
-* Daijiro Wachi ([twitter](https://twitter.com/watilde))
-* Jaga ([twitter](https://twitter.com/jagaimogmog))
-* Kento Ikeda ([twitter](https://twitter.com/ikenyal))
-* Masahiko Murakami ([twitter](https://twitter.com/fossamagna))
-* tacck ([twitter](https://twitter.com/tacck))
-* Yoshiaki Togami ([twitter](https://twitter.com/togami2864))
+- Daijiro Wachi ([twitter](https://twitter.com/watilde))
+- Jaga ([twitter](https://twitter.com/jagaimogmog))
+- Kento Ikeda ([twitter](https://twitter.com/ikenyal))
+- Masahiko Murakami ([twitter](https://twitter.com/fossamagna))
+- tacck ([twitter](https://twitter.com/tacck))
+- Yoshiaki Togami ([twitter](https://twitter.com/togami2864))
 
 ## Contributors
 

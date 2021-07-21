@@ -22,6 +22,8 @@ jobs:
         run: npm test
       - name: Build App
         run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Lighthouse against to a static dist dir
         uses: treosh/lighthouse-ci-action@v8
         with:
