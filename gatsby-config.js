@@ -30,5 +30,17 @@ module.exports = {
         trackingId: `G-8HMK0M9FE8`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Amplify 日本ユーザーグループ (Amplify Japan User Group) `,
+        short_name: `Amplify 日本ユーザーグループ`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#ff9900`,
+        display: `standalone`,
+        icon: `src/images/favicon-32x32.png`,
+      },
+    },
   ],
 };
