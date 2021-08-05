@@ -7,7 +7,7 @@ author: "Daijiro Wachi"
 
 # Amplify Boost Up #01
 
-2021/07/30 に開催された Amplify Boost Up #01 のコンテンツまとめとなります。
+2021/07/30 に開催された Amplify Boost Up #01 のコンテンツまとめです。
 
 ## アーカイブ
 
