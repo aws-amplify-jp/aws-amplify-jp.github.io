@@ -1,17 +1,17 @@
-import { makeStyles } from '@material-ui/core'
-import { useStaticQuery, graphql } from 'gatsby'
-import React from 'react'
-import Link from '../Link'
+import { makeStyles } from "@material-ui/core";
+import { useStaticQuery, graphql } from "gatsby";
+import React from "react";
+import Link from "../Link";
 
 const useStyles = makeStyles((_) => ({
   root: {
-    position: 'relative',
+    position: "relative",
   },
   toReportIndexRoot: {
-    marginTop: '50px',
-    marginBottom: '50px',
-  }
-}))
+    marginTop: "50px",
+    marginBottom: "50px",
+  },
+}));
 
 export default function ReportsIndex() {
   const classes = useStyles();
@@ -33,12 +33,15 @@ export default function ReportsIndex() {
   `);
 
   const reportsList = query.allMarkdownRemark.edges.reduce((acc, { node }) => {
-    const { frontmatter } = node
-    if (frontmatter.slug.startsWith('/reports') && frontmatter.slug !== '/reports') {
-      acc.push(frontmatter)
+    const { frontmatter } = node;
+    if (
+      frontmatter.slug.startsWith("/reports") &&
+      frontmatter.slug !== "/reports"
+    ) {
+      acc.push(frontmatter);
     }
-    return acc
-  }, [])
+    return acc;
+  }, []);
 
   return (
     <div className={classes.root}>
@@ -48,22 +51,26 @@ export default function ReportsIndex() {
             <th>タイトル</th>
             <th>日付</th>
             <th>寄稿者</th>
-            <th>詳細リンク</th>
+            <th>リンク</th>
           </tr>
         </thead>
         <tbody>
           {reportsList.map((item) => (
             <tr key={item.slug}>
-                <td>{item.title}</td>
-                <td>{item.date}</td>
-                <td>{item.author}</td>
-                <td><Link to={item.slug} primary>詳細</Link></td>
+              <td>{item.title}</td>
+              <td>{item.date}</td>
+              <td>{item.author}</td>
+              <td>
+                <Link to={item.slug} primary>
+                  詳細
+                </Link>
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
-  )
+  );
 }
 
 export const ToReportsIndexLink = () => {
@@ -71,7 +78,9 @@ export const ToReportsIndexLink = () => {
 
   return (
     <div className={classes.toReportIndexRoot}>
-      <Link to="/reports" primary>レポート一覧に戻る</Link>
+      <Link to="/reports" primary>
+        レポート一覧に戻る
+      </Link>
     </div>
-  )
-}
+  );
+};

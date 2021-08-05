@@ -3,11 +3,17 @@ import { graphql } from "gatsby";
 import Default from "../containers/Default";
 import rehypeReact from "rehype-react";
 import Contributors from "../components/markdown/Contributors";
-import ReportIndex, { ToReportsIndexLink } from '../components/markdown/ReportsIndex';
+import ReportIndex, {
+  ToReportsIndexLink,
+} from "../components/markdown/ReportsIndex";
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
-  components: { "md-contributors": Contributors, "reports-index": ReportIndex, "to-report-index": ToReportsIndexLink },
+  components: {
+    "md-contributors": Contributors,
+    "reports-index": ReportIndex,
+    "to-report-index": ToReportsIndexLink,
+  },
 }).Compiler;
 
 export default function Template({ data }) {

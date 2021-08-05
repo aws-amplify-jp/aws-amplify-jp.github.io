@@ -2,7 +2,7 @@
 slug: "/reports"
 ---
 
-# Reports Index
+# レポート一覧
 
 これまでのイベントのレポートを掲載しています。
 
