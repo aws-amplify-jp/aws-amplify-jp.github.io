@@ -13,6 +13,10 @@ author: "Daijiro Wachi"
 
 - https://www.youtube.com/watch?v=nc4b-FTEnCk
 
+## ツイートまとめ
+
+- https://togetter.com/li/1753425
+
 ## Amplify Boost Up by Amplify Japan User Group 紹介資料
 
 - 発表者：[@tacck](https://twitter.com/tacck)
