@@ -1,5 +1,5 @@
 ---
-slug: "/reports/20210801-amplify-boost-up-01"
+slug: "/reports/20210730-amplify-boost-up-01"
 title: "Amplify Boost Up #01"
 date: "2021.07.30"
 author: "Daijiro Wachi"
