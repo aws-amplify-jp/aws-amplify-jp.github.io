@@ -13,5 +13,6 @@ PRにて受け付けています。[こちら](https://github.com/aws-amplify-jp
 
 | イベント名           | 日時               | 詳細 URL                                          |
 | :------------------- | :----------------- | :------------------------------------------------ |
-|【Amplify Japan UG x Startup】Meetup | 2021 年 10 月 8日 | https://aws-startup-community.connpass.com/event/221176/ |
-| Amplify Boost Up #01 | 2021 年 7 月 30 日 | https://aws-amplify-jp.connpass.com/event/217715/ |
+|AWSの基礎を学ぼう クラウドお遍路特別編 最新サービスをみんなで触ってみる Amplify | 2021年11月13日 | https://awsbasics.connpass.com/event/227711/ |
+|【Amplify Japan UG x Startup】Meetup | 2021年10月8日 | https://aws-startup-community.connpass.com/event/221176/ |
+| Amplify Boost Up #01 | 2021年7月30日 | https://aws-amplify-jp.connpass.com/event/217715/ |
