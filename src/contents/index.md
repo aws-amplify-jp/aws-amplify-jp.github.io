@@ -24,7 +24,3 @@ AWS Amplify の利用方法、実運用含めた開発時の知見や課題、�
 - Masahiko Murakami ([twitter](https://twitter.com/fossamagna))
 - tacck ([twitter](https://twitter.com/tacck))
 - Yoshiaki Togami ([twitter](https://twitter.com/togami2864))
-
-## Contributors
-
-<md-contributors />

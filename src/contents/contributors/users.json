@@ -1,0 +1,3316 @@
+{
+  "watilde": {
+    "login": "watilde",
+    "location": "Tokyo"
+  },
+  "geckotang": {
+    "login": "geckotang",
+    "location": "Tokyo"
+  },
+  "togami2864": {
+    "login": "togami2864",
+    "location": "Tokyo"
+  },
+  "fossamagna": {
+    "login": "fossamagna",
+    "location": "Fukui, Japan"
+  },
+  "itomise": {
+    "login": "itomise",
+    "location": null
+  },
+  "tacck": {
+    "login": "tacck",
+    "location": "Sapporo, Hokkaido, Japan"
+  },
+  "yuuu": {
+    "login": "yuuu",
+    "location": null,
+    "japan": true
+  },
+  "adachishohei": {
+    "login": "adachishohei",
+    "location": null
+  },
+  "wataruoguchi": {
+    "login": "wataruoguchi",
+    "location": "Coquitlam, BC"
+  },
+  "coa00": {
+    "login": "coa00",
+    "location": "Tokyo"
+  },
+  "jaga810": {
+    "login": "jaga810",
+    "location": null,
+    "japan": true
+  },
+  "powerful23": {
+    "login": "powerful23",
+    "location": "Seattle"
+  },
+  "mlabieniec": {
+    "login": "mlabieniec",
+    "location": "06470"
+  },
+  "jordanranz": {
+    "login": "jordanranz",
+    "location": "Seattle, WA"
+  },
+  "haverchuck": {
+    "login": "haverchuck",
+    "location": "Seattle, WA"
+  },
+  "elorzafe": {
+    "login": "elorzafe",
+    "location": "Seattle, WA"
+  },
+  "Amplifiyer": {
+    "login": "Amplifiyer",
+    "location": null
+  },
+  "iartemiev": {
+    "login": "iartemiev",
+    "location": "Indianapolis, IN"
+  },
+  "sammartinez": {
+    "login": "sammartinez",
+    "location": "Seattle, WA"
+  },
+  "richardzcode": {
+    "login": "richardzcode",
+    "location": "Bay Area"
+  },
+  "mbahar": {
+    "login": "mbahar",
+    "location": "Los Angeles, CA"
+  },
+  "jamesaucode": {
+    "login": "jamesaucode",
+    "location": "Seattle"
+  },
+  "manueliglesias": {
+    "login": "manueliglesias",
+    "location": "Seattle, WA"
+  },
+  "ericclemmons": {
+    "login": "ericclemmons",
+    "location": "Seattle, Washington"
+  },
+  "ashika01": {
+    "login": "ashika01",
+    "location": null
+  },
+  "amhinson": {
+    "login": "amhinson",
+    "location": "Seattle, WA"
+  },
+  "buggy": {
+    "login": "buggy",
+    "location": "Sydney, Australia"
+  },
+  "wlee221": {
+    "login": "wlee221",
+    "location": "Seattle, WA"
+  },
+  "Ashish-Nanda": {
+    "login": "Ashish-Nanda",
+    "location": "Seattle"
+  },
+  "TreTuna": {
+    "login": "TreTuna",
+    "location": "Seattle, WA"
+  },
+  "kaustavghosh06": {
+    "login": "kaustavghosh06",
+    "location": "United States"
+  },
+  "siegerts": {
+    "login": "siegerts",
+    "location": null
+  },
+  "seang96": {
+    "login": "seang96",
+    "location": null
+  },
+  "aldo-roman": {
+    "login": "aldo-roman",
+    "location": "Berlin, Germany"
+  },
+  "undefobj": {
+    "login": "undefobj",
+    "location": "Seattle"
+  },
+  "yuyokk": {
+    "login": "yuyokk",
+    "location": null
+  },
+  "nickarocho": {
+    "login": "nickarocho",
+    "location": "Los Angeles, CA"
+  },
+  "tjleing": {
+    "login": "tjleing",
+    "location": null
+  },
+  "yuntuowang": {
+    "login": "yuntuowang",
+    "location": null
+  },
+  "eddiekeller": {
+    "login": "eddiekeller",
+    "location": null
+  },
+  "petercwk": {
+    "login": "petercwk",
+    "location": null
+  },
+  "hkjpotato": {
+    "login": "hkjpotato",
+    "location": "atl/nyc/virtual"
+  },
+  "harrysolovay": {
+    "login": "harrysolovay",
+    "location": "New York City"
+  },
+  "david-mcafee": {
+    "login": "david-mcafee",
+    "location": "Los Angeles, CA"
+  },
+  "tommypraeger": {
+    "login": "tommypraeger",
+    "location": "Seattle"
+  },
+  "thaddmt": {
+    "login": "thaddmt",
+    "location": null
+  },
+  "mauerbac": {
+    "login": "mauerbac",
+    "location": "NYC"
+  },
+  "dependabot[bot]": {
+    "login": "dependabot[bot]",
+    "location": null
+  },
+  "calebpollman": {
+    "login": "calebpollman",
+    "location": "Seattle, WA"
+  },
+  "yuth": {
+    "login": "yuth",
+    "location": "Seattle"
+  },
+  "rlmartin": {
+    "login": "rlmartin",
+    "location": "New York, NY"
+  },
+  "slaymance": {
+    "login": "slaymance",
+    "location": "San Francisco, CA"
+  },
+  "UnleashedMind": {
+    "login": "UnleashedMind",
+    "location": null
+  },
+  "bloveless": {
+    "login": "bloveless",
+    "location": "Post Falls, ID"
+  },
+  "nubpro": {
+    "login": "nubpro",
+    "location": null
+  },
+  "r3-yamauchi": {
+    "login": "r3-yamauchi",
+    "location": "Osaka, Japan"
+  },
+  "brianjd": {
+    "login": "brianjd",
+    "location": "Toronto, ON"
+  },
+  "PerfectPixel": {
+    "login": "PerfectPixel",
+    "location": "Berlin, Germany"
+  },
+  "ahmetcetin": {
+    "login": "ahmetcetin",
+    "location": "Warsaw, Poland"
+  },
+  "epicfaace": {
+    "login": "epicfaace",
+    "location": "Washington, D.C."
+  },
+  "chrisbonifacio": {
+    "login": "chrisbonifacio",
+    "location": "Hartford, CT"
+  },
+  "joebuono": {
+    "login": "joebuono",
+    "location": null
+  },
+  "svidgen": {
+    "login": "svidgen",
+    "location": "Wisconsin"
+  },
+  "ldgarcia": {
+    "login": "ldgarcia",
+    "location": null
+  },
+  "Samaritan1011001": {
+    "login": "Samaritan1011001",
+    "location": "Seattle"
+  },
+  "trwq63": {
+    "login": "trwq63",
+    "location": null
+  },
+  "cheedep": {
+    "login": "cheedep",
+    "location": null
+  },
+  "wei": {
+    "login": "wei",
+    "location": "Florida"
+  },
+  "alebiavati": {
+    "login": "alebiavati",
+    "location": "Vancouver, Canada"
+  },
+  "christophgysin": {
+    "login": "christophgysin",
+    "location": "Finland"
+  },
+  "Domino987": {
+    "login": "Domino987",
+    "location": null
+  },
+  "prestomation": {
+    "login": "prestomation",
+    "location": "Seattle, WA"
+  },
+  "yanb2016": {
+    "login": "yanb2016",
+    "location": "San Francisco"
+  },
+  "reedyrm": {
+    "login": "reedyrm",
+    "location": "Austin, TX"
+  },
+  "billyshaominwu": {
+    "login": "billyshaominwu",
+    "location": "Seattle, WA"
+  },
+  "hyandell": {
+    "login": "hyandell",
+    "location": null
+  },
+  "jessedoyle": {
+    "login": "jessedoyle",
+    "location": "Edmonton, Canada"
+  },
+  "lafiosca": {
+    "login": "lafiosca",
+    "location": "Atlanta"
+  },
+  "mk0sojo": {
+    "login": "mk0sojo",
+    "location": "London, UK"
+  },
+  "dabit3": {
+    "login": "dabit3",
+    "location": "Madison, Mississippi"
+  },
+  "reesscot": {
+    "login": "reesscot",
+    "location": "Seattle, WA"
+  },
+  "maxdavidson": {
+    "login": "maxdavidson",
+    "location": "Stockholm, Sweden"
+  },
+  "AndrewT51": {
+    "login": "AndrewT51",
+    "location": null
+  },
+  "AshanFernando": {
+    "login": "AshanFernando",
+    "location": "Sri Lanka"
+  },
+  "buddhikajay": {
+    "login": "buddhikajay",
+    "location": "Brisbane"
+  },
+  "dennybiasiolli": {
+    "login": "dennybiasiolli",
+    "location": "Savigliano, Cuneo, Piedmont, Italy"
+  },
+  "donaldpipowitch": {
+    "login": "donaldpipowitch",
+    "location": "Germany, Leipzig"
+  },
+  "gautierrollin": {
+    "login": "gautierrollin",
+    "location": "Strasbourg, France"
+  },
+  "justingrant": {
+    "login": "justingrant",
+    "location": "Berkeley, CA"
+  },
+  "LoganArnett": {
+    "login": "LoganArnett",
+    "location": "Orlando, FL"
+  },
+  "Quelu": {
+    "login": "Quelu",
+    "location": "Belgique"
+  },
+  "tbroadley": {
+    "login": "tbroadley",
+    "location": "Kitchener, Canada"
+  },
+  "MatrixFrog": {
+    "login": "MatrixFrog",
+    "location": "San Francisco, CA"
+  },
+  "zacharyrogers1": {
+    "login": "zacharyrogers1",
+    "location": null
+  },
+  "jacoblogan": {
+    "login": "jacoblogan",
+    "location": null
+  },
+  "jason-h-michael": {
+    "login": "jason-h-michael",
+    "location": null
+  },
+  "yareyaredesuyo": {
+    "login": "yareyaredesuyo",
+    "location": null
+  },
+  "Funkmyster": {
+    "login": "Funkmyster",
+    "location": "Austin, TX, USA"
+  },
+  "SebSchwartz": {
+    "login": "SebSchwartz",
+    "location": "Belgium"
+  },
+  "aaronseatsmart": {
+    "login": "aaronseatsmart",
+    "location": null
+  },
+  "andreialecu": {
+    "login": "andreialecu",
+    "location": "Bucharest"
+  },
+  "artursvonda": {
+    "login": "artursvonda",
+    "location": "Latvia"
+  },
+  "kinow": {
+    "login": "kinow",
+    "location": "Auckland, New Zealand"
+  },
+  "cedricgrothues": {
+    "login": "cedricgrothues",
+    "location": "Bielefeld, Germany"
+  },
+  "ceich": {
+    "login": "ceich",
+    "location": "North SF Bay area"
+  },
+  "ChristopheBougere": {
+    "login": "ChristopheBougere",
+    "location": "Paris"
+  },
+  "DanielApt": {
+    "login": "DanielApt",
+    "location": "London"
+  },
+  "div5yesh": {
+    "login": "div5yesh",
+    "location": "Seattle, WA"
+  },
+  "Edo-San": {
+    "login": "Edo-San",
+    "location": null
+  },
+  "Fefbug": {
+    "login": "Fefbug",
+    "location": null
+  },
+  "hmisonne": {
+    "login": "hmisonne",
+    "location": "Los Angeles, CA"
+  },
+  "qswitcher": {
+    "login": "qswitcher",
+    "location": "Austin, TX"
+  },
+  "jensbodal": {
+    "login": "jensbodal",
+    "location": null
+  },
+  "jimbol": {
+    "login": "jimbol",
+    "location": "Ann Arbor"
+  },
+  "jveldboom": {
+    "login": "jveldboom",
+    "location": "Knoxville, TN"
+  },
+  "jcortez": {
+    "login": "jcortez",
+    "location": null
+  },
+  "jbrown": {
+    "login": "jbrown",
+    "location": "Washington, DC"
+  },
+  "Khairo-kh": {
+    "login": "Khairo-kh",
+    "location": "Canada"
+  },
+  "k-yle": {
+    "login": "k-yle",
+    "location": "Tāmaki Makaurau, New Zealand"
+  },
+  "coderbyheart": {
+    "login": "coderbyheart",
+    "location": "Trondheim, Norway"
+  },
+  "mahayash315": {
+    "login": "mahayash315",
+    "location": "Tokyo, Japan"
+  },
+  "mikepatrick": {
+    "login": "mikepatrick",
+    "location": null
+  },
+  "mickadoua": {
+    "login": "mickadoua",
+    "location": "Paris"
+  },
+  "nem035": {
+    "login": "nem035",
+    "location": "Miami, FL"
+  },
+  "uncodable": {
+    "login": "uncodable",
+    "location": "localhost"
+  },
+  "mordka": {
+    "login": "mordka",
+    "location": null
+  },
+  "theill": {
+    "login": "theill",
+    "location": "Copenhagen, Denmark"
+  },
+  "appwiz": {
+    "login": "appwiz",
+    "location": "Seattle"
+  },
+  "ffxsam": {
+    "login": "ffxsam",
+    "location": "Chicago"
+  },
+  "lusentis": {
+    "login": "lusentis",
+    "location": "Milan, Italy"
+  },
+  "temideoye": {
+    "login": "temideoye",
+    "location": "Bellevue, WA"
+  },
+  "thundermiracle": {
+    "login": "thundermiracle",
+    "location": "Saitama, Japan"
+  },
+  "timroesner": {
+    "login": "timroesner",
+    "location": "San Jose, CA"
+  },
+  "VikVelev": {
+    "login": "VikVelev",
+    "location": "Bulgaria"
+  },
+  "ygpark80": {
+    "login": "ygpark80",
+    "location": null
+  },
+  "cde06": {
+    "login": "cde06",
+    "location": null
+  },
+  "sniperman23": {
+    "login": "sniperman23",
+    "location": null
+  },
+  "supun19": {
+    "login": "supun19",
+    "location": null
+  },
+  "ArkamJ": {
+    "login": "ArkamJ",
+    "location": null
+  },
+  "codingnuclei": {
+    "login": "codingnuclei",
+    "location": null
+  },
+  "hnq90": {
+    "login": "hnq90",
+    "location": "Hanoi, ベトナム"
+  },
+  "mrowles": {
+    "login": "mrowles",
+    "location": "Wollongong, Australia"
+  },
+  "0xflotus": {
+    "login": "0xflotus",
+    "location": null
+  },
+  "3nvi": {
+    "login": "3nvi",
+    "location": "Athens, Greece"
+  },
+  "aaronlna": {
+    "login": "aaronlna",
+    "location": null
+  },
+  "apancutt": {
+    "login": "apancutt",
+    "location": null
+  },
+  "Albert-Gao": {
+    "login": "Albert-Gao",
+    "location": "Auckland, New Zealand"
+  },
+  "baharev": {
+    "login": "baharev",
+    "location": "Vienna, Austria"
+  },
+  "alpsayin": {
+    "login": "alpsayin",
+    "location": null
+  },
+  "amine605": {
+    "login": "amine605",
+    "location": null
+  },
+  "muttoni": {
+    "login": "muttoni",
+    "location": null
+  },
+  "greimela": {
+    "login": "greimela",
+    "location": "Munich, Germany"
+  },
+  "ajorg-aws": {
+    "login": "ajorg-aws",
+    "location": null
+  },
+  "Anenth": {
+    "login": "Anenth",
+    "location": "Bangalore"
+  },
+  "anthonyhumphreys": {
+    "login": "anthonyhumphreys",
+    "location": "Lancaster, UK"
+  },
+  "tom-rb": {
+    "login": "tom-rb",
+    "location": null
+  },
+  "brandart": {
+    "login": "brandart",
+    "location": "Austria"
+  },
+  "apuyou": {
+    "login": "apuyou",
+    "location": "Paris, France"
+  },
+  "AryanJ-NYC": {
+    "login": "AryanJ-NYC",
+    "location": "New York, NY"
+  },
+  "aaayushsingh": {
+    "login": "aaayushsingh",
+    "location": "Noida, India"
+  },
+  "blakedietz": {
+    "login": "blakedietz",
+    "location": "Boise, Idaho"
+  },
+  "borisdayma": {
+    "login": "borisdayma",
+    "location": "Houston, TX"
+  },
+  "bradyellison": {
+    "login": "bradyellison",
+    "location": "Austin, TX"
+  },
+  "brettstack": {
+    "login": "brettstack",
+    "location": "Queensland, Australia"
+  },
+  "onlybakam": {
+    "login": "onlybakam",
+    "location": "Dallas, TX"
+  },
+  "spencerbeggs": {
+    "login": "spencerbeggs",
+    "location": "New York, NY"
+  },
+  "cespin": {
+    "login": "cespin",
+    "location": "Montreal, Canada"
+  },
+  "crcommons": {
+    "login": "crcommons",
+    "location": null
+  },
+  "cashc": {
+    "login": "cashc",
+    "location": "Santa Cruz, CA"
+  },
+  "CharlesStover": {
+    "login": "CharlesStover",
+    "location": "Seattle, WA, USA"
+  },
+  "cshfang": {
+    "login": "cshfang",
+    "location": null
+  },
+  "chris5marsh": {
+    "login": "chris5marsh",
+    "location": "York, UK"
+  },
+  "ChristianMurphy": {
+    "login": "ChristianMurphy",
+    "location": "Phoenix"
+  },
+  "CiprianSt": {
+    "login": "CiprianSt",
+    "location": "Cluj-Napoca"
+  },
+  "DanielMuller": {
+    "login": "DanielMuller",
+    "location": "Lisbon"
+  },
+  "dbalmain": {
+    "login": "dbalmain",
+    "location": null
+  },
+  "DavidHospital": {
+    "login": "DavidHospital",
+    "location": null
+  },
+  "LosD": {
+    "login": "LosD",
+    "location": "Denmark"
+  },
+  "duarten": {
+    "login": "duarten",
+    "location": null
+  },
+  "jellydn": {
+    "login": "jellydn",
+    "location": "Singapore"
+  },
+  "neilime": {
+    "login": "neilime",
+    "location": "Aix en provence"
+  },
+  "eczajk1": {
+    "login": "eczajk1",
+    "location": "Maryland"
+  },
+  "nwsm": {
+    "login": "nwsm",
+    "location": null
+  },
+  "erothmayer": {
+    "login": "erothmayer",
+    "location": null
+  },
+  "eshacham": {
+    "login": "eshacham",
+    "location": "Saint Louis"
+  },
+  "BafS": {
+    "login": "BafS",
+    "location": "Switzerland"
+  },
+  "ffocsi": {
+    "login": "ffocsi",
+    "location": null
+  },
+  "gabehollombe": {
+    "login": "gabehollombe",
+    "location": "Singapore"
+  },
+  "gcox": {
+    "login": "gcox",
+    "location": "Tampa, FL"
+  },
+  "39ro": {
+    "login": "39ro",
+    "location": "London"
+  },
+  "gregjhogan": {
+    "login": "gregjhogan",
+    "location": null
+  },
+  "guilhermedecampo": {
+    "login": "guilhermedecampo",
+    "location": "São Paulo, Brazil"
+  },
+  "guilhermebruzzi": {
+    "login": "guilhermebruzzi",
+    "location": "Rio de Janeiro"
+  },
+  "hideokamoto": {
+    "login": "hideokamoto",
+    "location": "hyogo"
+  },
+  "HilSny": {
+    "login": "HilSny",
+    "location": "Chicago, IL"
+  },
+  "okawa14all": {
+    "login": "okawa14all",
+    "location": "Kanagawa, Japan"
+  },
+  "ianwijma": {
+    "login": "ianwijma",
+    "location": "Canberra, Australia"
+  },
+  "robonaut": {
+    "login": "robonaut",
+    "location": null
+  },
+  "janoist1": {
+    "login": "janoist1",
+    "location": "London & Budapest"
+  },
+  "itaisteinherz": {
+    "login": "itaisteinherz",
+    "location": "Israel"
+  },
+  "boskiv": {
+    "login": "boskiv",
+    "location": "Chicago"
+  },
+  "Ivaylo-Kirov": {
+    "login": "Ivaylo-Kirov",
+    "location": "Toronto, Ontario, Canada"
+  },
+  "jgunnink": {
+    "login": "jgunnink",
+    "location": "Perth, Western Australia"
+  },
+  "kandros": {
+    "login": "kandros",
+    "location": "Milan - Italy"
+  },
+  "bensie": {
+    "login": "bensie",
+    "location": "San Diego, CA"
+  },
+  "jamespolanco": {
+    "login": "jamespolanco",
+    "location": null
+  },
+  "jamesonwilliams": {
+    "login": "jamesonwilliams",
+    "location": "United States"
+  },
+  "jasoncabot": {
+    "login": "jasoncabot",
+    "location": "Wokingham, United Kingdom"
+  },
+  "steinybot": {
+    "login": "steinybot",
+    "location": "Auckland - New Zealand"
+  },
+  "jmhummel": {
+    "login": "jmhummel",
+    "location": null
+  },
+  "jirihofman": {
+    "login": "jirihofman",
+    "location": "Hradec Králové, Česká Republika"
+  },
+  "Joe8Bit": {
+    "login": "Joe8Bit",
+    "location": "London, UK"
+  },
+  "joeltio": {
+    "login": "joeltio",
+    "location": null
+  },
+  "Jolg42": {
+    "login": "Jolg42",
+    "location": "Berlin"
+  },
+  "JohnRuffin": {
+    "login": "JohnRuffin",
+    "location": null
+  },
+  "cornr": {
+    "login": "cornr",
+    "location": "Germany"
+  },
+  "OrozcoJonathan": {
+    "login": "OrozcoJonathan",
+    "location": "Seattle, WA"
+  },
+  "joostfarla": {
+    "login": "joostfarla",
+    "location": "The Netherlands"
+  },
+  "dioxmio": {
+    "login": "dioxmio",
+    "location": "Barcelona"
+  },
+  "woodcockjosh": {
+    "login": "woodcockjosh",
+    "location": null
+  },
+  "jcvalerio": {
+    "login": "jcvalerio",
+    "location": "San Jose, Costa Rica"
+  },
+  "dudenamedjune": {
+    "login": "dudenamedjune",
+    "location": "Houston, Texas"
+  },
+  "JustDerb": {
+    "login": "JustDerb",
+    "location": "Seattle, WA"
+  },
+  "kamataryo": {
+    "login": "kamataryo",
+    "location": "Maibara-city, Shiga-pref., JAPAN"
+  },
+  "katiegoines": {
+    "login": "katiegoines",
+    "location": null
+  },
+  "kulikala": {
+    "login": "kulikala",
+    "location": "Tokyo/Japan"
+  },
+  "keningharryscom": {
+    "login": "keningharryscom",
+    "location": null
+  },
+  "nnyath": {
+    "login": "nnyath",
+    "location": "NorCal"
+  },
+  "bellkev": {
+    "login": "bellkev",
+    "location": null
+  },
+  "kinoroy": {
+    "login": "kinoroy",
+    "location": "Vancouver, BC, Canada"
+  },
+  "matsuby": {
+    "login": "matsuby",
+    "location": "Japan Tokyo"
+  },
+  "koty": {
+    "login": "koty",
+    "location": "Nagano, Japan"
+  },
+  "krishnan-mani": {
+    "login": "krishnan-mani",
+    "location": "Oxford, UK"
+  },
+  "selbekk": {
+    "login": "selbekk",
+    "location": "Oslo, Norway"
+  },
+  "kkemple": {
+    "login": "kkemple",
+    "location": "Internet"
+  },
+  "lanceharper": {
+    "login": "lanceharper",
+    "location": "Seattle"
+  },
+  "LanderN": {
+    "login": "LanderN",
+    "location": "Belgium"
+  },
+  "leandrogehlen": {
+    "login": "leandrogehlen",
+    "location": "Chapecó - SC"
+  },
+  "lorensr": {
+    "login": "lorensr",
+    "location": "New York"
+  },
+  "luisvsm": {
+    "login": "luisvsm",
+    "location": null
+  },
+  "born2bewild": {
+    "login": "born2bewild",
+    "location": "Wrocław"
+  },
+  "lukethompson": {
+    "login": "lukethompson",
+    "location": "Sydney, Australia"
+  },
+  "Luke-Davies": {
+    "login": "Luke-Davies",
+    "location": null
+  },
+  "mjmaix": {
+    "login": "mjmaix",
+    "location": null
+  },
+  "MahsaMaslahati": {
+    "login": "MahsaMaslahati",
+    "location": "France"
+  },
+  "MainAero": {
+    "login": "MainAero",
+    "location": "Berlin"
+  },
+  "mavax": {
+    "login": "mavax",
+    "location": null
+  },
+  "schiller-manuel": {
+    "login": "schiller-manuel",
+    "location": null
+  },
+  "MrIceman": {
+    "login": "MrIceman",
+    "location": "Germany"
+  },
+  "rabellino12": {
+    "login": "rabellino12",
+    "location": "Uruguay"
+  },
+  "matthova": {
+    "login": "matthova",
+    "location": null
+  },
+  "lvl99": {
+    "login": "lvl99",
+    "location": "Paris, France"
+  },
+  "MattNguyen": {
+    "login": "MattNguyen",
+    "location": "Lisbon, Portugal"
+  },
+  "that1matt": {
+    "login": "that1matt",
+    "location": "Earth"
+  },
+  "matthiashub-porsche": {
+    "login": "matthiashub-porsche",
+    "location": null
+  },
+  "matsev": {
+    "login": "matsev",
+    "location": "Malmö, Sweden"
+  },
+  "qmau94": {
+    "login": "qmau94",
+    "location": "Tokyo, Japan"
+  },
+  "faroceann": {
+    "login": "faroceann",
+    "location": "New York, NY"
+  },
+  "mayt": {
+    "login": "mayt",
+    "location": null
+  },
+  "MennoTammens": {
+    "login": "MennoTammens",
+    "location": null
+  },
+  "ProdigySim": {
+    "login": "ProdigySim",
+    "location": "Kansas"
+  },
+  "michaelmerrilltest": {
+    "login": "michaelmerrilltest",
+    "location": null
+  },
+  "michaelmerrill": {
+    "login": "michaelmerrill",
+    "location": "United States"
+  },
+  "miguelaeh": {
+    "login": "miguelaeh",
+    "location": "Sevilla"
+  },
+  "mikecousins": {
+    "login": "mikecousins",
+    "location": "Calgary, Alberta, Canada"
+  },
+  "mousedownmike": {
+    "login": "mousedownmike",
+    "location": "United States"
+  },
+  "mbfisher": {
+    "login": "mbfisher",
+    "location": "London"
+  },
+  "mzarnawski": {
+    "login": "mzarnawski",
+    "location": null
+  },
+  "madmed88": {
+    "login": "madmed88",
+    "location": "Boston, MA"
+  },
+  "meddjelaili": {
+    "login": "meddjelaili",
+    "location": "Algeria"
+  },
+  "naseemkullah": {
+    "login": "naseemkullah",
+    "location": null
+  },
+  "nathanagez": {
+    "login": "nathanagez",
+    "location": "Montpellier, France"
+  },
+  "bonnici": {
+    "login": "bonnici",
+    "location": null
+  },
+  "superhaggis": {
+    "login": "superhaggis",
+    "location": "London"
+  },
+  "nilisha-jais": {
+    "login": "nilisha-jais",
+    "location": null
+  },
+  "Nyazuki": {
+    "login": "Nyazuki",
+    "location": null
+  },
+  "OlivierPT": {
+    "login": "OlivierPT",
+    "location": "Toulouse, France"
+  },
+  "oluomoniyi": {
+    "login": "oluomoniyi",
+    "location": "London"
+  },
+  "4-life": {
+    "login": "4-life",
+    "location": null
+  },
+  "p4ul": {
+    "login": "p4ul",
+    "location": "Dunedin, New Zealand"
+  },
+  "paulmand3l": {
+    "login": "paulmand3l",
+    "location": "San Francisco"
+  },
+  "pcasari": {
+    "login": "pcasari",
+    "location": null
+  },
+  "mcvicar": {
+    "login": "mcvicar",
+    "location": "Dublin"
+  },
+  "mrcoles": {
+    "login": "mrcoles",
+    "location": "New York, NY"
+  },
+  "philiiiiiipp": {
+    "login": "philiiiiiipp",
+    "location": "Utrecht"
+  },
+  "Pwntus": {
+    "login": "Pwntus",
+    "location": "Norway ⇄ Finland"
+  },
+  "ranilian": {
+    "login": "ranilian",
+    "location": null
+  },
+  "reberthkss": {
+    "login": "reberthkss",
+    "location": "Jacareí"
+  },
+  "reid-harrison": {
+    "login": "reid-harrison",
+    "location": null
+  },
+  "rheinardkorf": {
+    "login": "rheinardkorf",
+    "location": "Australia"
+  },
+  "RidhwanDev": {
+    "login": "RidhwanDev",
+    "location": null
+  },
+  "robbevan": {
+    "login": "robbevan",
+    "location": "London"
+  },
+  "rehos": {
+    "login": "rehos",
+    "location": "The Netherlands"
+  },
+  "rockia": {
+    "login": "rockia",
+    "location": "Vancouver, Canada"
+  },
+  "severjason": {
+    "login": "severjason",
+    "location": "Ukraine"
+  },
+  "chibicode": {
+    "login": "chibicode",
+    "location": "San Francisco, CA"
+  },
+  "SijmenHuizenga": {
+    "login": "SijmenHuizenga",
+    "location": "Delft, Netherlands"
+  },
+  "Simon-TechForm": {
+    "login": "Simon-TechForm",
+    "location": null
+  },
+  "sbussard": {
+    "login": "sbussard",
+    "location": "San Francisco"
+  },
+  "stevekinney": {
+    "login": "stevekinney",
+    "location": "Denver, CO"
+  },
+  "sebastienfi": {
+    "login": "sebastienfi",
+    "location": null
+  },
+  "seblegall": {
+    "login": "seblegall",
+    "location": "France, Paris"
+  },
+  "exoego": {
+    "login": "exoego",
+    "location": "WFH, Japan"
+  },
+  "TheoKouzelis": {
+    "login": "TheoKouzelis",
+    "location": "UK"
+  },
+  "palpatim": {
+    "login": "palpatim",
+    "location": "Seattle, WA"
+  },
+  "pewniak747": {
+    "login": "pewniak747",
+    "location": null
+  },
+  "vikas5914": {
+    "login": "vikas5914",
+    "location": "INDIA"
+  },
+  "weisisheng": {
+    "login": "weisisheng",
+    "location": "United States"
+  },
+  "vipseixas": {
+    "login": "vipseixas",
+    "location": "Lisboa, Portugal"
+  },
+  "vitorreis": {
+    "login": "vitorreis",
+    "location": "Berlin, Germany"
+  },
+  "wesww": {
+    "login": "wesww",
+    "location": "San Francisco"
+  },
+  "yirako": {
+    "login": "yirako",
+    "location": null
+  },
+  "yana-katty": {
+    "login": "yana-katty",
+    "location": null,
+    "japan": true
+  },
+  "ybonjour": {
+    "login": "ybonjour",
+    "location": "Bern"
+  },
+  "ZakariaNaaija": {
+    "login": "ZakariaNaaija",
+    "location": null
+  },
+  "AaronZyLee": {
+    "login": "AaronZyLee",
+    "location": "Los Angeles"
+  },
+  "ChihweiLHBird": {
+    "login": "ChihweiLHBird",
+    "location": "Houston, TX, USA"
+  },
+  "alteregor": {
+    "login": "alteregor",
+    "location": null
+  },
+  "amymc": {
+    "login": "amymc",
+    "location": "Dublin, Ireland"
+  },
+  "chintannp": {
+    "login": "chintannp",
+    "location": null
+  },
+  "clethrill": {
+    "login": "clethrill",
+    "location": null
+  },
+  "daikiojm": {
+    "login": "daikiojm",
+    "location": "Tokyo, Japan"
+  },
+  "dozyio": {
+    "login": "dozyio",
+    "location": "UK"
+  },
+  "ewah": {
+    "login": "ewah",
+    "location": null
+  },
+  "h-kishi": {
+    "login": "h-kishi",
+    "location": null,
+    "japan": true
+  },
+  "inokawa": {
+    "login": "inokawa",
+    "location": "Kanagawa, Japan"
+  },
+  "Knowledge91": {
+    "login": "Knowledge91",
+    "location": "Barcelona"
+  },
+  "kooooohe": {
+    "login": "kooooohe",
+    "location": null,
+    "japan": true
+  },
+  "ksavidetove": {
+    "login": "ksavidetove",
+    "location": null
+  },
+  "millarm": {
+    "login": "millarm",
+    "location": null
+  },
+  "mirgj": {
+    "login": "mirgj",
+    "location": "Singapore"
+  },
+  "natedog": {
+    "login": "natedog",
+    "location": null
+  },
+  "polymath-shpetim": {
+    "login": "polymath-shpetim",
+    "location": null
+  },
+  "rakesh0r": {
+    "login": "rakesh0r",
+    "location": null
+  },
+  "stevearoonie": {
+    "login": "stevearoonie",
+    "location": null
+  },
+  "sw-yx": {
+    "login": "sw-yx",
+    "location": "NYC"
+  },
+  "wald-tq": {
+    "login": "wald-tq",
+    "location": "Munich, Germany"
+  },
+  "wylfent": {
+    "login": "wylfent",
+    "location": null
+  },
+  "xanagi": {
+    "login": "xanagi",
+    "location": "Yokohama, Kanagawa, Japan"
+  },
+  "zhashuyi": {
+    "login": "zhashuyi",
+    "location": null
+  },
+  "netroy": {
+    "login": "netroy",
+    "location": "Berlin, Germany "
+  },
+  "edwardfoyle": {
+    "login": "edwardfoyle",
+    "location": null
+  },
+  "attilah": {
+    "login": "attilah",
+    "location": "Seattle, WA"
+  },
+  "SwaySway": {
+    "login": "SwaySway",
+    "location": "Los Angeles"
+  },
+  "ammarkarachi": {
+    "login": "ammarkarachi",
+    "location": "Seattle"
+  },
+  "jhockett": {
+    "login": "jhockett",
+    "location": "Seattle, WA"
+  },
+  "cjihrig": {
+    "login": "cjihrig",
+    "location": "Pittsburgh, PA"
+  },
+  "akshbhu": {
+    "login": "akshbhu",
+    "location": null
+  },
+  "johnpc": {
+    "login": "johnpc",
+    "location": "Ann Arbor, MI"
+  },
+  "nikhname": {
+    "login": "nikhname",
+    "location": "Seattle, WA"
+  },
+  "lazpavel": {
+    "login": "lazpavel",
+    "location": "Hudson"
+  },
+  "kateglee": {
+    "login": "kateglee",
+    "location": null
+  },
+  "sundersc": {
+    "login": "sundersc",
+    "location": null
+  },
+  "mikeparisstuff": {
+    "login": "mikeparisstuff",
+    "location": null
+  },
+  "mlshon": {
+    "login": "mlshon",
+    "location": null
+  },
+  "sachscode": {
+    "login": "sachscode",
+    "location": "Frisco/Texas"
+  },
+  "danielleadams": {
+    "login": "danielleadams",
+    "location": "New York, NY"
+  },
+  "marcvberg": {
+    "login": "marcvberg",
+    "location": "Grand Rapids, MI"
+  },
+  "phani-srikar": {
+    "login": "phani-srikar",
+    "location": null
+  },
+  "andyhopp": {
+    "login": "andyhopp",
+    "location": "Atlanta, GA"
+  },
+  "bboure": {
+    "login": "bboure",
+    "location": null
+  },
+  "rajrajhans": {
+    "login": "rajrajhans",
+    "location": "Pune, India"
+  },
+  "josefaidt": {
+    "login": "josefaidt",
+    "location": "Louisiana"
+  },
+  "kstro21": {
+    "login": "kstro21",
+    "location": "Sofia, Bulgaria"
+  },
+  "kavengagne": {
+    "login": "kavengagne",
+    "location": "Canada"
+  },
+  "studpeps": {
+    "login": "studpeps",
+    "location": null
+  },
+  "hirochachacha": {
+    "login": "hirochachacha",
+    "location": null
+  },
+  "diegocstn": {
+    "login": "diegocstn",
+    "location": "Vancouver, BC, Canada"
+  },
+  "renebrandel": {
+    "login": "renebrandel",
+    "location": "Seattle, WA"
+  },
+  "r0zar": {
+    "login": "r0zar",
+    "location": "Chicago"
+  },
+  "letsbelopez": {
+    "login": "letsbelopez",
+    "location": "Redmond, WA"
+  },
+  "Bentheburrito": {
+    "login": "Bentheburrito",
+    "location": "California, USA"
+  },
+  "chucre": {
+    "login": "chucre",
+    "location": null
+  },
+  "nchaloult": {
+    "login": "nchaloult",
+    "location": "Atlanta, GA"
+  },
+  "visusnet": {
+    "login": "visusnet",
+    "location": null
+  },
+  "ashwindevendran": {
+    "login": "ashwindevendran",
+    "location": null
+  },
+  "ifyoumakeit": {
+    "login": "ifyoumakeit",
+    "location": "United States"
+  },
+  "sharmaaditya570191": {
+    "login": "sharmaaditya570191",
+    "location": "New Delhi, India"
+  },
+  "gitaalekhyapaul": {
+    "login": "gitaalekhyapaul",
+    "location": " Kolkata, India"
+  },
+  "kevcam4891": {
+    "login": "kevcam4891",
+    "location": null
+  },
+  "wizage": {
+    "login": "wizage",
+    "location": null
+  },
+  "abhi7cr": {
+    "login": "abhi7cr",
+    "location": null
+  },
+  "JIoJIaJIu": {
+    "login": "JIoJIaJIu",
+    "location": null
+  },
+  "GustavoEdinger": {
+    "login": "GustavoEdinger",
+    "location": "Hamburg"
+  },
+  "johnf": {
+    "login": "johnf",
+    "location": "Sydney, Australia"
+  },
+  "m14t": {
+    "login": "m14t",
+    "location": "Oakland, CA"
+  },
+  "PawanKolhe": {
+    "login": "PawanKolhe",
+    "location": "New Delhi, India"
+  },
+  "pdodde": {
+    "login": "pdodde",
+    "location": null
+  },
+  "Brene": {
+    "login": "Brene",
+    "location": null
+  },
+  "flozender": {
+    "login": "flozender",
+    "location": "Montreal, Canada"
+  },
+  "YikSanChan": {
+    "login": "YikSanChan",
+    "location": null
+  },
+  "mwudtke": {
+    "login": "mwudtke",
+    "location": null
+  },
+  "rakannimer": {
+    "login": "rakannimer",
+    "location": null
+  },
+  "rohitchandalurivt": {
+    "login": "rohitchandalurivt",
+    "location": null
+  },
+  "cjihrig-aws": {
+    "login": "cjihrig-aws",
+    "location": null
+  },
+  "panva": {
+    "login": "panva",
+    "location": "Czech Republic"
+  },
+  "garyleefight": {
+    "login": "garyleefight",
+    "location": null
+  },
+  "heitorlessa": {
+    "login": "heitorlessa",
+    "location": "Netherlands"
+  },
+  "hisham": {
+    "login": "hisham",
+    "location": "Calgary, AB"
+  },
+  "xo28122000": {
+    "login": "xo28122000",
+    "location": "San Francisco, CA"
+  },
+  "kldeb": {
+    "login": "kldeb",
+    "location": "Greater Toronto Area, ON, Canada"
+  },
+  "marcoreni": {
+    "login": "marcoreni",
+    "location": "Milan, Italy"
+  },
+  "michaelbrewer": {
+    "login": "michaelbrewer",
+    "location": "San Diego"
+  },
+  "lawmicha": {
+    "login": "lawmicha",
+    "location": null
+  },
+  "alichherawalla": {
+    "login": "alichherawalla",
+    "location": "Pune,India"
+  },
+  "PatrykMilewski": {
+    "login": "PatrykMilewski",
+    "location": "Gdańsk, Poland"
+  },
+  "richardmcclellan": {
+    "login": "richardmcclellan",
+    "location": "Austin, TX"
+  },
+  "nagey": {
+    "login": "nagey",
+    "location": null
+  },
+  "ambientlight": {
+    "login": "ambientlight",
+    "location": "Taiwan"
+  },
+  "jcbdev": {
+    "login": "jcbdev",
+    "location": null
+  },
+  "akgm3i": {
+    "login": "akgm3i",
+    "location": null
+  },
+  "AlessandroVol23": {
+    "login": "AlessandroVol23",
+    "location": "Munich"
+  },
+  "arlyon": {
+    "login": "arlyon",
+    "location": "London"
+  },
+  "alikadir": {
+    "login": "alikadir",
+    "location": "Istanbul, Turkey"
+  },
+  "apatel72001": {
+    "login": "apatel72001",
+    "location": "Seattle, WA"
+  },
+  "ankon": {
+    "login": "ankon",
+    "location": "Amsterdam"
+  },
+  "adav": {
+    "login": "adav",
+    "location": "UK"
+  },
+  "a-melnyk": {
+    "login": "a-melnyk",
+    "location": null
+  },
+  "binishkaspar": {
+    "login": "binishkaspar",
+    "location": "Chennai, India"
+  },
+  "ashleyoldershaw": {
+    "login": "ashleyoldershaw",
+    "location": "Brighton, UK"
+  },
+  "beomseoklee": {
+    "login": "beomseoklee",
+    "location": "Seattle"
+  },
+  "billsnyder": {
+    "login": "billsnyder",
+    "location": null
+  },
+  "ctjlewis": {
+    "login": "ctjlewis",
+    "location": "United States"
+  },
+  "chadkouse": {
+    "login": "chadkouse",
+    "location": "Dayton, OH"
+  },
+  "chocopowwwa": {
+    "login": "chocopowwwa",
+    "location": "There"
+  },
+  "mansona": {
+    "login": "mansona",
+    "location": "Wicklow, Ireland"
+  },
+  "chriswessells": {
+    "login": "chriswessells",
+    "location": "Salt Lake City, UT"
+  },
+  "cwoolum": {
+    "login": "cwoolum",
+    "location": "Santa Ana, CA"
+  },
+  "slaat": {
+    "login": "slaat",
+    "location": "Vienna"
+  },
+  "dsypniewski": {
+    "login": "dsypniewski",
+    "location": null
+  },
+  "dkwl93": {
+    "login": "dkwl93",
+    "location": "Auckland, NZ"
+  },
+  "dpilch": {
+    "login": "dpilch",
+    "location": "Salt Lake City, UT"
+  },
+  "drochetti": {
+    "login": "drochetti",
+    "location": "Seattle, WA"
+  },
+  "dbramwell": {
+    "login": "dbramwell",
+    "location": "Edinburgh"
+  },
+  "iamdavidmartin": {
+    "login": "iamdavidmartin",
+    "location": null
+  },
+  "DrawnWren": {
+    "login": "DrawnWren",
+    "location": null
+  },
+  "EduardoMRB": {
+    "login": "EduardoMRB",
+    "location": "Cuiabá, Mato Grosso"
+  },
+  "ebisbe": {
+    "login": "ebisbe",
+    "location": "Sant Fost"
+  },
+  "estebancrw": {
+    "login": "estebancrw",
+    "location": "Mexico"
+  },
+  "FilipPyrek": {
+    "login": "FilipPyrek",
+    "location": "Czech Republic"
+  },
+  "frederikprijck": {
+    "login": "frederikprijck",
+    "location": "Belgium"
+  },
+  "jasonxh": {
+    "login": "jasonxh",
+    "location": null
+  },
+  "assainov": {
+    "login": "assainov",
+    "location": "Dubai"
+  },
+  "jamesgeorge007": {
+    "login": "jamesgeorge007",
+    "location": "Kottayam, Kerala, India"
+  },
+  "phishy": {
+    "login": "phishy",
+    "location": "Mobile, AL"
+  },
+  "Jhorlin": {
+    "login": "Jhorlin",
+    "location": "Orlando Florida"
+  },
+  "atmospherium": {
+    "login": "atmospherium",
+    "location": null
+  },
+  "jpignata": {
+    "login": "jpignata",
+    "location": "New Jersey"
+  },
+  "jwcarroll": {
+    "login": "jwcarroll",
+    "location": "Knoxville, TN"
+  },
+  "joshwnj": {
+    "login": "joshwnj",
+    "location": "Melbourne, Australia"
+  },
+  "nau88xj": {
+    "login": "nau88xj",
+    "location": null
+  },
+  "harokevin": {
+    "login": "harokevin",
+    "location": "Portland, Or"
+  },
+  "safonovklim": {
+    "login": "safonovklim",
+    "location": "Dubai, UAE"
+  },
+  "tinovyatkin": {
+    "login": "tinovyatkin",
+    "location": "Luxembourg"
+  },
+  "pkubat": {
+    "login": "pkubat",
+    "location": "Boston, MA"
+  },
+  "kwonyg": {
+    "login": "kwonyg",
+    "location": "Busan,  Republic Of Korea"
+  },
+  "kylekirkby": {
+    "login": "kylekirkby",
+    "location": "Cambridge, UK"
+  },
+  "loganhersh": {
+    "login": "loganhersh",
+    "location": null
+  },
+  "lseemann": {
+    "login": "lseemann",
+    "location": null
+  },
+  "mwarger": {
+    "login": "mwarger",
+    "location": "Kansas City"
+  },
+  "Zanndorin": {
+    "login": "Zanndorin",
+    "location": null
+  },
+  "mdwt": {
+    "login": "mdwt",
+    "location": "Cape Town"
+  },
+  "mkmurali": {
+    "login": "mkmurali",
+    "location": null
+  },
+  "OtterFlip": {
+    "login": "OtterFlip",
+    "location": null
+  },
+  "swaminator": {
+    "login": "swaminator",
+    "location": "Seattle, WA"
+  },
+  "patspam": {
+    "login": "patspam",
+    "location": "Melbourne, Australia"
+  },
+  "toelke": {
+    "login": "toelke",
+    "location": null
+  },
+  "koiker": {
+    "login": "koiker",
+    "location": "Atlanta GA"
+  },
+  "ItsRLuo": {
+    "login": "ItsRLuo",
+    "location": null
+  },
+  "rickfoxcroft": {
+    "login": "rickfoxcroft",
+    "location": "Perth"
+  },
+  "robpre": {
+    "login": "robpre",
+    "location": null
+  },
+  "yokomizor": {
+    "login": "yokomizor",
+    "location": null
+  },
+  "roychoo": {
+    "login": "roychoo",
+    "location": null
+  },
+  "0xR": {
+    "login": "0xR",
+    "location": null
+  },
+  "riywo": {
+    "login": "riywo",
+    "location": "Vancouver"
+  },
+  "sscotth": {
+    "login": "sscotth",
+    "location": "Nashville, TN USA"
+  },
+  "srquinn21": {
+    "login": "srquinn21",
+    "location": "Seattle, WA"
+  },
+  "sebastiancrossa": {
+    "login": "sebastiancrossa",
+    "location": "Zapopan, Jalisco"
+  },
+  "SebasRod23": {
+    "login": "SebasRod23",
+    "location": "Mexico City"
+  },
+  "huang47": {
+    "login": "huang47",
+    "location": "Cupertino, California"
+  },
+  "simsinght": {
+    "login": "simsinght",
+    "location": null
+  },
+  "stefangomez": {
+    "login": "stefangomez",
+    "location": "San Francisco, CA"
+  },
+  "thibaultdalban": {
+    "login": "thibaultdalban",
+    "location": "Lyon"
+  },
+  "tomhirschfeld": {
+    "login": "tomhirschfeld",
+    "location": "San Francisco, CA"
+  },
+  "tlakomy": {
+    "login": "tlakomy",
+    "location": "Poznań, Poland"
+  },
+  "TrueLecter": {
+    "login": "TrueLecter",
+    "location": null
+  },
+  "vic-blt": {
+    "login": "vic-blt",
+    "location": null
+  },
+  "anttiviljami": {
+    "login": "anttiviljami",
+    "location": "Cologne, Germany"
+  },
+  "computationalcore": {
+    "login": "computationalcore",
+    "location": null
+  },
+  "v-raja": {
+    "login": "v-raja",
+    "location": null
+  },
+  "vshkola": {
+    "login": "vshkola",
+    "location": "Munich, Germany"
+  },
+  "warrenmcquinn": {
+    "login": "warrenmcquinn",
+    "location": "Houston"
+  },
+  "yoonian": {
+    "login": "yoonian",
+    "location": "Korea"
+  },
+  "zjullion": {
+    "login": "zjullion",
+    "location": "Edmonton"
+  },
+  "zeynepsu": {
+    "login": "zeynepsu",
+    "location": null
+  },
+  "adilusman51": {
+    "login": "adilusman51",
+    "location": null
+  },
+  "alex-vladut": {
+    "login": "alex-vladut",
+    "location": null
+  },
+  "alexmcmanus": {
+    "login": "alexmcmanus",
+    "location": null
+  },
+  "arseneoaa": {
+    "login": "arseneoaa",
+    "location": null
+  },
+  "bokuweb": {
+    "login": "bokuweb",
+    "location": "Japan"
+  },
+  "chrisjprior": {
+    "login": "chrisjprior",
+    "location": null
+  },
+  "hsspain": {
+    "login": "hsspain",
+    "location": null
+  },
+  "mike-neck": {
+    "login": "mike-neck",
+    "location": "Japan Tokyo"
+  },
+  "minbi": {
+    "login": "minbi",
+    "location": null
+  },
+  "mpashkovskiy": {
+    "login": "mpashkovskiy",
+    "location": "Helsinki, Finland"
+  },
+  "nikaera": {
+    "login": "nikaera",
+    "location": "Tokyo"
+  },
+  "ntekka": {
+    "login": "ntekka",
+    "location": null
+  },
+  "odedpeer": {
+    "login": "odedpeer",
+    "location": null
+  },
+  "osddeitf": {
+    "login": "osddeitf",
+    "location": null
+  },
+  "rowanu": {
+    "login": "rowanu",
+    "location": "Australia"
+  },
+  "starpebble": {
+    "login": "starpebble",
+    "location": null
+  },
+  "tdslinden": {
+    "login": "tdslinden",
+    "location": "Vancouver, BC"
+  },
+  "timstarkk": {
+    "login": "timstarkk",
+    "location": "Austin Texas"
+  },
+  "sabaturgay": {
+    "login": "sabaturgay",
+    "location": "Amsterdam, Netherlands"
+  },
+  "user32-2": {
+    "login": "user32-2",
+    "location": null
+  },
+  "nikhil-dabhade": {
+    "login": "nikhil-dabhade",
+    "location": null
+  },
+  "kvasukib": {
+    "login": "kvasukib",
+    "location": "Seattle, WA"
+  },
+  "eeatonaws": {
+    "login": "eeatonaws",
+    "location": null
+  },
+  "desokroshan": {
+    "login": "desokroshan",
+    "location": "New York,NY"
+  },
+  "wooj2": {
+    "login": "wooj2",
+    "location": "Southern California"
+  },
+  "pananapread": {
+    "login": "pananapread",
+    "location": "NYC"
+  },
+  "TrekSoft": {
+    "login": "TrekSoft",
+    "location": "NJ"
+  },
+  "abdallahshaban557": {
+    "login": "abdallahshaban557",
+    "location": "San Diego, California"
+  },
+  "rohandubal": {
+    "login": "rohandubal",
+    "location": "Seattle, WA"
+  },
+  "changxu0306": {
+    "login": "changxu0306",
+    "location": "Seattle"
+  },
+  "gsans": {
+    "login": "gsans",
+    "location": "London, UK ☂"
+  },
+  "jakeburden": {
+    "login": "jakeburden",
+    "location": "Connecticut"
+  },
+  "royjit": {
+    "login": "royjit",
+    "location": "Seattle"
+  },
+  "frankmuellr": {
+    "login": "frankmuellr",
+    "location": "Seattle, WA"
+  },
+  "raphkim": {
+    "login": "raphkim",
+    "location": "Seattle"
+  },
+  "dnys1": {
+    "login": "dnys1",
+    "location": "Phoenix, Arizona"
+  },
+  "KristinaPeterson": {
+    "login": "KristinaPeterson",
+    "location": "Seattle"
+  },
+  "kneekey23": {
+    "login": "kneekey23",
+    "location": "San Francisco, CA"
+  },
+  "offlineprogrammer": {
+    "login": "offlineprogrammer",
+    "location": "USA"
+  },
+  "Jordan-Nelson": {
+    "login": "Jordan-Nelson",
+    "location": null
+  },
+  "ruiguoamz": {
+    "login": "ruiguoamz",
+    "location": "Seattle"
+  },
+  "HuiSF": {
+    "login": "HuiSF",
+    "location": "San Francisco, US"
+  },
+  "rmschindler": {
+    "login": "rmschindler",
+    "location": "West Vancouver, British Columbia, Canada"
+  },
+  "ragingsquirrel3": {
+    "login": "ragingsquirrel3",
+    "location": null
+  },
+  "dengdan154": {
+    "login": "dengdan154",
+    "location": null
+  },
+  "poojamat": {
+    "login": "poojamat",
+    "location": null
+  },
+  "scb01": {
+    "login": "scb01",
+    "location": null
+  },
+  "hdworld11": {
+    "login": "hdworld11",
+    "location": null
+  },
+  "fjnoyp": {
+    "login": "fjnoyp",
+    "location": null
+  },
+  "Kilo-Loco": {
+    "login": "Kilo-Loco",
+    "location": "Yucaipa, CA"
+  },
+  "atierian": {
+    "login": "atierian",
+    "location": "Charleston, SC"
+  },
+  "DavidBrear": {
+    "login": "DavidBrear",
+    "location": "Charlottesville, Virginia"
+  },
+  "ErikCH": {
+    "login": "ErikCH",
+    "location": "Reno"
+  },
+  "simoncaley": {
+    "login": "simoncaley",
+    "location": null
+  },
+  "rjuliano": {
+    "login": "rjuliano",
+    "location": null
+  },
+  "flywheelms": {
+    "login": "flywheelms",
+    "location": null
+  },
+  "tobiasfeil": {
+    "login": "tobiasfeil",
+    "location": null
+  },
+  "thisisabhash": {
+    "login": "thisisabhash",
+    "location": "Seattle, WA"
+  },
+  "danaugrs": {
+    "login": "danaugrs",
+    "location": null
+  },
+  "janhesters": {
+    "login": "janhesters",
+    "location": null
+  },
+  "jazwiecki": {
+    "login": "jazwiecki",
+    "location": null
+  },
+  "pedroapfilho": {
+    "login": "pedroapfilho",
+    "location": "Lisbon"
+  },
+  "Straubulous": {
+    "login": "Straubulous",
+    "location": null
+  },
+  "joseph-d-p": {
+    "login": "joseph-d-p",
+    "location": "Singapore"
+  },
+  "ahmadawais": {
+    "login": "ahmadawais",
+    "location": "San Francisco Bay Area, CA, US."
+  },
+  "aspittel": {
+    "login": "aspittel",
+    "location": null
+  },
+  "ajinkabeer": {
+    "login": "ajinkabeer",
+    "location": "Munich, Bavaria, Germany"
+  },
+  "drice": {
+    "login": "drice",
+    "location": "Denver, CO, USA"
+  },
+  "eranation": {
+    "login": "eranation",
+    "location": null
+  },
+  "evanb2": {
+    "login": "evanb2",
+    "location": "Roseburg, OR"
+  },
+  "jbnunn": {
+    "login": "jbnunn",
+    "location": "Isla Vista"
+  },
+  "3O1": {
+    "login": "3O1",
+    "location": "Washington, D.C"
+  },
+  "levibuzolic": {
+    "login": "levibuzolic",
+    "location": "Melbourne, Australia"
+  },
+  "MattJColes": {
+    "login": "MattJColes",
+    "location": "Melbourne, AU"
+  },
+  "Milan-Shah": {
+    "login": "Milan-Shah",
+    "location": "New York, NY"
+  },
+  "walvekarnikhil": {
+    "login": "walvekarnikhil",
+    "location": null
+  },
+  "rogerchi": {
+    "login": "rogerchi",
+    "location": null
+  },
+  "sktimalsina": {
+    "login": "sktimalsina",
+    "location": "Seattle"
+  },
+  "jennapederson": {
+    "login": "jennapederson",
+    "location": "Minneapolis, MN"
+  },
+  "seanWLawrence": {
+    "login": "seanWLawrence",
+    "location": "Seattle, WA"
+  },
+  "ajstiles": {
+    "login": "ajstiles",
+    "location": null
+  },
+  "Abuitime": {
+    "login": "Abuitime",
+    "location": "San Francisco, CA"
+  },
+  "Simbul": {
+    "login": "Simbul",
+    "location": null
+  },
+  "ashwanth1109": {
+    "login": "ashwanth1109",
+    "location": "Bangalore, India"
+  },
+  "thisbenrogers": {
+    "login": "thisbenrogers",
+    "location": "Fort Worth, TX"
+  },
+  "blbradley": {
+    "login": "blbradley",
+    "location": "Nashville, TN"
+  },
+  "chamathpali": {
+    "login": "chamathpali",
+    "location": "Sri Lanka"
+  },
+  "ameter": {
+    "login": "ameter",
+    "location": "Denver, CO"
+  },
+  "daannijkamp": {
+    "login": "daannijkamp",
+    "location": "Lochem, The Netherlands"
+  },
+  "davida26": {
+    "login": "davida26",
+    "location": "United States"
+  },
+  "flogy": {
+    "login": "flogy",
+    "location": "Switzerland"
+  },
+  "gabehollombe-aws": {
+    "login": "gabehollombe-aws",
+    "location": null
+  },
+  "ggriffin": {
+    "login": "ggriffin",
+    "location": "Boston, MA"
+  },
+  "giusedroid": {
+    "login": "giusedroid",
+    "location": "London, UK | Turin, IT"
+  },
+  "MrHertal": {
+    "login": "MrHertal",
+    "location": "Paris"
+  },
+  "haochang": {
+    "login": "haochang",
+    "location": "Bristol"
+  },
+  "5t111111": {
+    "login": "5t111111",
+    "location": "TOKYO"
+  },
+  "jamesobd": {
+    "login": "jamesobd",
+    "location": "Payette, ID"
+  },
+  "joebernard": {
+    "login": "joebernard",
+    "location": "Florida"
+  },
+  "3CordGuy": {
+    "login": "3CordGuy",
+    "location": "Midwest"
+  },
+  "lvndry": {
+    "login": "lvndry",
+    "location": "Paris, France"
+  },
+  "stmarco": {
+    "login": "stmarco",
+    "location": "Belgium"
+  },
+  "matteofigus": {
+    "login": "matteofigus",
+    "location": "London"
+  },
+  "overthemike": {
+    "login": "overthemike",
+    "location": null
+  },
+  "peteretelej": {
+    "login": "peteretelej",
+    "location": "Nairobi, Kenya"
+  },
+  "rajababu3": {
+    "login": "rajababu3",
+    "location": "Bangalore"
+  },
+  "raybooysen": {
+    "login": "raybooysen",
+    "location": "Singapore"
+  },
+  "renegoretzka": {
+    "login": "renegoretzka",
+    "location": "Germany - Berlin"
+  },
+  "dd-ssc": {
+    "login": "dd-ssc",
+    "location": "Hamburg, Germany"
+  },
+  "watanabethais": {
+    "login": "watanabethais",
+    "location": "Nagasaki✈️São Paulo",
+    "japan": true
+  },
+  "Vasques1995": {
+    "login": "Vasques1995",
+    "location": null
+  },
+  "mohammedzamakhan": {
+    "login": "mohammedzamakhan",
+    "location": "Dallas, TX"
+  },
+  "callezenwaka": {
+    "login": "callezenwaka",
+    "location": "Lagos, Nigeria"
+  },
+  "jodion": {
+    "login": "jodion",
+    "location": null
+  },
+  "awsmobilesdk": {
+    "login": "awsmobilesdk",
+    "location": "Seattle"
+  },
+  "zeshuaro": {
+    "login": "zeshuaro",
+    "location": null
+  },
+  "jakemraz": {
+    "login": "jakemraz",
+    "location": null
+  },
+  "AaronCTech": {
+    "login": "AaronCTech",
+    "location": "Texas"
+  },
+  "Spetnik": {
+    "login": "Spetnik",
+    "location": null
+  },
+  "stocaaro": {
+    "login": "stocaaro",
+    "location": null
+  },
+  "aaronstanley": {
+    "login": "aaronstanley",
+    "location": "Shanghai, China"
+  },
+  "aidanreidel": {
+    "login": "aidanreidel",
+    "location": null
+  },
+  "alexanderchan": {
+    "login": "alexanderchan",
+    "location": "Alberta, Canada"
+  },
+  "hubgit": {
+    "login": "hubgit",
+    "location": "London, UK"
+  },
+  "Youhan": {
+    "login": "Youhan",
+    "location": "Winnipeg"
+  },
+  "amandeepmittal": {
+    "login": "amandeepmittal",
+    "location": null
+  },
+  "baartch": {
+    "login": "baartch",
+    "location": "Chur, Switzerland"
+  },
+  "yongjhih": {
+    "login": "yongjhih",
+    "location": "Los Angeles, United States"
+  },
+  "andrewrmoreland": {
+    "login": "andrewrmoreland",
+    "location": "West Sussex, United Kingdom"
+  },
+  "andymartinwork": {
+    "login": "andymartinwork",
+    "location": "Fiksdal"
+  },
+  "amslezak": {
+    "login": "amslezak",
+    "location": "NY/CA"
+  },
+  "BAdame": {
+    "login": "BAdame",
+    "location": null
+  },
+  "bennettdams": {
+    "login": "bennettdams",
+    "location": "Germany"
+  },
+  "arcdev1": {
+    "login": "arcdev1",
+    "location": "Ottawa, Canada"
+  },
+  "bodazhao": {
+    "login": "bodazhao",
+    "location": "United Kingdom"
+  },
+  "bobbyhadz": {
+    "login": "bobbyhadz",
+    "location": null
+  },
+  "bjwyse": {
+    "login": "bjwyse",
+    "location": "Ireland"
+  },
+  "brennanMKE": {
+    "login": "brennanMKE",
+    "location": "San Francisco, CA"
+  },
+  "BrentAtAWS": {
+    "login": "BrentAtAWS",
+    "location": null
+  },
+  "chowerth": {
+    "login": "chowerth",
+    "location": null
+  },
+  "elsenhuc": {
+    "login": "elsenhuc",
+    "location": null
+  },
+  "CristianLlanos": {
+    "login": "CristianLlanos",
+    "location": "Peru"
+  },
+  "CriPstian": {
+    "login": "CriPstian",
+    "location": "Bucharest, Romania"
+  },
+  "danabrams": {
+    "login": "danabrams",
+    "location": "New York/New Jersey"
+  },
+  "DanielCender": {
+    "login": "DanielCender",
+    "location": "Dallas, Texas"
+  },
+  "dbhagen": {
+    "login": "dbhagen",
+    "location": "Austin, TX"
+  },
+  "dbanksdesign": {
+    "login": "dbanksdesign",
+    "location": "San Jose, CA"
+  },
+  "flyingace": {
+    "login": "flyingace",
+    "location": "Brooklyn, NY"
+  },
+  "dangdennis": {
+    "login": "dangdennis",
+    "location": "Manhattan, New York"
+  },
+  "dogafincan": {
+    "login": "dogafincan",
+    "location": "The Netherlands"
+  },
+  "douglas-mason": {
+    "login": "douglas-mason",
+    "location": "Pittsburgh, PA"
+  },
+  "eduard-malakhov": {
+    "login": "eduard-malakhov",
+    "location": "Moscow, Russia"
+  },
+  "Edujugon": {
+    "login": "Edujugon",
+    "location": "Berlin, Germany"
+  },
+  "craicoverflow": {
+    "login": "craicoverflow",
+    "location": "Waterford, Ireland"
+  },
+  "crooke": {
+    "login": "crooke",
+    "location": "Kansas"
+  },
+  "rochabr": {
+    "login": "rochabr",
+    "location": "Vancouver"
+  },
+  "GabrielAmazonas": {
+    "login": "GabrielAmazonas",
+    "location": "Brazil"
+  },
+  "gianpaj": {
+    "login": "gianpaj",
+    "location": "Dublin, Ireland"
+  },
+  "guikcd": {
+    "login": "guikcd",
+    "location": "France"
+  },
+  "harrisonhjones": {
+    "login": "harrisonhjones",
+    "location": "Atlanta, GA"
+  },
+  "hasibhassan": {
+    "login": "hasibhassan",
+    "location": null
+  },
+  "Hugodby": {
+    "login": "Hugodby",
+    "location": "Paris"
+  },
+  "cibyr": {
+    "login": "cibyr",
+    "location": null
+  },
+  "lanbau": {
+    "login": "lanbau",
+    "location": "Singapore"
+  },
+  "ivanji": {
+    "login": "ivanji",
+    "location": "Sydney"
+  },
+  "imjacobclark": {
+    "login": "imjacobclark",
+    "location": "Manchester, United Kingdom"
+  },
+  "hellojaewon": {
+    "login": "hellojaewon",
+    "location": "Korea"
+  },
+  "jamesingham": {
+    "login": "jamesingham",
+    "location": "Yorkshire, UK"
+  },
+  "nachbar": {
+    "login": "nachbar",
+    "location": "Scottsdale, AZ, USA"
+  },
+  "jannes-io": {
+    "login": "jannes-io",
+    "location": "Hoegaarde, Belgium"
+  },
+  "jerwallace": {
+    "login": "jerwallace",
+    "location": "San Francisco"
+  },
+  "yepes": {
+    "login": "yepes",
+    "location": "Elche"
+  },
+  "j1mr10rd4n": {
+    "login": "j1mr10rd4n",
+    "location": "Australia"
+  },
+  "JingYenLoh": {
+    "login": "JingYenLoh",
+    "location": "Singapore"
+  },
+  "joewired": {
+    "login": "joewired",
+    "location": "Santa Monica, CA"
+  },
+  "jonoirwinrsa": {
+    "login": "jonoirwinrsa",
+    "location": "San Francisco"
+  },
+  "jagonzalr": {
+    "login": "jagonzalr",
+    "location": "Lisbon"
+  },
+  "jplock": {
+    "login": "jplock",
+    "location": "Connecticut"
+  },
+  "JTunis": {
+    "login": "JTunis",
+    "location": null
+  },
+  "kay-is": {
+    "login": "kay-is",
+    "location": "Stuttgart, Germany"
+  },
+  "Kayokwa": {
+    "login": "Kayokwa",
+    "location": "Seattle, Washington"
+  },
+  "theKeval": {
+    "login": "theKeval",
+    "location": "Toronto"
+  },
+  "kvnh": {
+    "login": "kvnh",
+    "location": "Belfast, NI"
+  },
+  "KBPsystem777": {
+    "login": "KBPsystem777",
+    "location": "San Juan City, Philippines"
+  },
+  "Koolant": {
+    "login": "Koolant",
+    "location": null
+  },
+  "llanginger": {
+    "login": "llanginger",
+    "location": null
+  },
+  "Lucas-Geitner": {
+    "login": "Lucas-Geitner",
+    "location": null
+  },
+  "marco": {
+    "login": "marco",
+    "location": "United States"
+  },
+  "meckhardt": {
+    "login": "meckhardt",
+    "location": "munich"
+  },
+  "voltron2112": {
+    "login": "voltron2112",
+    "location": "Indianapolis, IN"
+  },
+  "Petemir": {
+    "login": "Petemir",
+    "location": "Argentina"
+  },
+  "binarymatt": {
+    "login": "binarymatt",
+    "location": "Boulder, CO"
+  },
+  "MattMcCherry": {
+    "login": "MattMcCherry",
+    "location": "Manchester, UK"
+  },
+  "danieloi": {
+    "login": "danieloi",
+    "location": null
+  },
+  "medelman17": {
+    "login": "medelman17",
+    "location": "Philadelphia, PA"
+  },
+  "mikezucc": {
+    "login": "mikezucc",
+    "location": "United States"
+  },
+  "miketheman": {
+    "login": "miketheman",
+    "location": "New York, NY"
+  },
+  "MiladNazeri": {
+    "login": "MiladNazeri",
+    "location": null
+  },
+  "minionsong": {
+    "login": "minionsong",
+    "location": "Seoul"
+  },
+  "mostafa-drz": {
+    "login": "mostafa-drz",
+    "location": "Toronto, Canada"
+  },
+  "munibrahman": {
+    "login": "munibrahman",
+    "location": "Calgary"
+  },
+  "shicholas": {
+    "login": "shicholas",
+    "location": "Oakland, CA"
+  },
+  "nino": {
+    "login": "nino",
+    "location": "London, UK"
+  },
+  "Ochaun": {
+    "login": "Ochaun",
+    "location": null
+  },
+  "oleersoy": {
+    "login": "oleersoy",
+    "location": "Chicago"
+  },
+  "olivoil": {
+    "login": "olivoil",
+    "location": "Montreal, QC, Canada"
+  },
+  "orifmilod": {
+    "login": "orifmilod",
+    "location": null
+  },
+  "otto-urpelainen-nt": {
+    "login": "otto-urpelainen-nt",
+    "location": "Porvoo"
+  },
+  "pabloVoorvaart": {
+    "login": "pabloVoorvaart",
+    "location": null
+  },
+  "kirtap7": {
+    "login": "kirtap7",
+    "location": "Dublin, Ireland"
+  },
+  "p-chaikouski": {
+    "login": "p-chaikouski",
+    "location": null
+  },
+  "pedroduartecosta": {
+    "login": "pedroduartecosta",
+    "location": "Porto"
+  },
+  "Gringox": {
+    "login": "Gringox",
+    "location": "Dublin, Ireland"
+  },
+  "pobch": {
+    "login": "pobch",
+    "location": "Thailand"
+  },
+  "el-pol": {
+    "login": "el-pol",
+    "location": "Barcelona, Spain"
+  },
+  "Rafcin": {
+    "login": "Rafcin",
+    "location": null
+  },
+  "CryogenicPlanet": {
+    "login": "CryogenicPlanet",
+    "location": "Bengaluru"
+  },
+  "reggie3": {
+    "login": "reggie3",
+    "location": "Hampton Roads, VA"
+  },
+  "awhig": {
+    "login": "awhig",
+    "location": "Los Angeles, CA"
+  },
+  "mootrichard": {
+    "login": "mootrichard",
+    "location": "San Francisco, CA"
+  },
+  "RobBSage": {
+    "login": "RobBSage",
+    "location": "Sage UK"
+  },
+  "roborourke": {
+    "login": "roborourke",
+    "location": "Sheffield"
+  },
+  "rasensio": {
+    "login": "rasensio",
+    "location": "Barcelona, Spain"
+  },
+  "rohanray": {
+    "login": "rohanray",
+    "location": "India"
+  },
+  "rubensdemelo": {
+    "login": "rubensdemelo",
+    "location": "Brasília, Brazil"
+  },
+  "rjjaegeraws": {
+    "login": "rjjaegeraws",
+    "location": "Vancouver, BC"
+  },
+  "FLGMwt": {
+    "login": "FLGMwt",
+    "location": "Chicago, IL"
+  },
+  "gnomeria": {
+    "login": "gnomeria",
+    "location": "Jakarta"
+  },
+  "SebastianKurp": {
+    "login": "SebastianKurp",
+    "location": "Chicago, IL"
+  },
+  "mojodna": {
+    "login": "mojodna",
+    "location": "Bend, OR"
+  },
+  "utopianf": {
+    "login": "utopianf",
+    "location": "日本"
+  },
+  "SimonRice": {
+    "login": "SimonRice",
+    "location": "East Devon, United Kingdom"
+  },
+  "tgfjt": {
+    "login": "tgfjt",
+    "location": "Tokyo, Japan"
+  },
+  "tklaas": {
+    "login": "tklaas",
+    "location": "Nettetal, Germany"
+  },
+  "t-jones": {
+    "login": "t-jones",
+    "location": "Cameron Park, CA"
+  },
+  "timrayers": {
+    "login": "timrayers",
+    "location": "Maidenhead, UK"
+  },
+  "TitouanVanBelle": {
+    "login": "TitouanVanBelle",
+    "location": "Berlin, Germany"
+  },
+  "tomkuehl": {
+    "login": "tomkuehl",
+    "location": "Vienna"
+  },
+  "TronNattakorn": {
+    "login": "TronNattakorn",
+    "location": null
+  },
+  "vparpoil": {
+    "login": "vparpoil",
+    "location": "Paris"
+  },
+  "vgribok": {
+    "login": "vgribok",
+    "location": "Atlanta, GA, USA"
+  },
+  "vsevolodbvd": {
+    "login": "vsevolodbvd",
+    "location": null
+  },
+  "qucode1": {
+    "login": "qucode1",
+    "location": "Germany, NRW"
+  },
+  "wohchowshy": {
+    "login": "wohchowshy",
+    "location": null
+  },
+  "cryptoyoshi": {
+    "login": "cryptoyoshi",
+    "location": null
+  },
+  "yzhong52": {
+    "login": "yzhong52",
+    "location": "Canada"
+  },
+  "kayuapi": {
+    "login": "kayuapi",
+    "location": null
+  },
+  "a7md0": {
+    "login": "a7md0",
+    "location": "Bahrain"
+  },
+  "andrestone": {
+    "login": "andrestone",
+    "location": "Alicante, Spain"
+  },
+  "arnavsharma93": {
+    "login": "arnavsharma93",
+    "location": "Hyderabad"
+  },
+  "aws-amplify-ops": {
+    "login": "aws-amplify-ops",
+    "location": null
+  },
+  "bkocik": {
+    "login": "bkocik",
+    "location": null
+  },
+  "camerondurham": {
+    "login": "camerondurham",
+    "location": "UTC -07"
+  },
+  "chrish-21": {
+    "login": "chrish-21",
+    "location": null
+  },
+  "clin9": {
+    "login": "clin9",
+    "location": null
+  },
+  "erickeno": {
+    "login": "erickeno",
+    "location": null
+  },
+  "et304383": {
+    "login": "et304383",
+    "location": null
+  },
+  "falcon027": {
+    "login": "falcon027",
+    "location": null
+  },
+  "geekygecko": {
+    "login": "geekygecko",
+    "location": null
+  },
+  "ecsdavidt": {
+    "login": "ecsdavidt",
+    "location": "Denver, CO, USA"
+  },
+  "horsewin": {
+    "login": "horsewin",
+    "location": "Tokyo Japan"
+  },
+  "howyi": {
+    "login": "howyi",
+    "location": "Tokyo, Japan"
+  },
+  "isbkch": {
+    "login": "isbkch",
+    "location": "Montreal"
+  },
+  "iqre8": {
+    "login": "iqre8",
+    "location": "Suriname"
+  },
+  "jaimemendozadev": {
+    "login": "jaimemendozadev",
+    "location": "¯\\_(ツ)_/¯"
+  },
+  "contractorwolf": {
+    "login": "contractorwolf",
+    "location": "United States"
+  },
+  "janejjshen": {
+    "login": "janejjshen",
+    "location": null
+  },
+  "jbrady89": {
+    "login": "jbrady89",
+    "location": null
+  },
+  "khalidbourhaba": {
+    "login": "khalidbourhaba",
+    "location": "Nice, France"
+  },
+  "khokharn-aws": {
+    "login": "khokharn-aws",
+    "location": null
+  },
+  "m4kvn": {
+    "login": "m4kvn",
+    "location": "Shibuya,Tokyo, Japan"
+  },
+  "matwerber1": {
+    "login": "matwerber1",
+    "location": "Seattle"
+  },
+  "modelsforcare": {
+    "login": "modelsforcare",
+    "location": null
+  },
+  "nagraj-ec": {
+    "login": "nagraj-ec",
+    "location": null
+  },
+  "naoyashiga": {
+    "login": "naoyashiga",
+    "location": "Tokyo,Japan"
+  },
+  "plum-shiga": {
+    "login": "plum-shiga",
+    "location": null
+  },
+  "jpeddicord": {
+    "login": "jpeddicord",
+    "location": "Seattle"
+  },
+  "ruisebas": {
+    "login": "ruisebas",
+    "location": null
+  },
+  "ashiemke": {
+    "login": "ashiemke",
+    "location": null
+  },
+  "dvanwinkle": {
+    "login": "dvanwinkle",
+    "location": "Cincinnati, OH"
+  },
+  "harsh62": {
+    "login": "harsh62",
+    "location": null
+  },
+  "jtbergman": {
+    "login": "jtbergman",
+    "location": null
+  },
+  "jcowley": {
+    "login": "jcowley",
+    "location": "Portland, Oregon"
+  },
+  "github-actions[bot]": {
+    "login": "github-actions[bot]",
+    "location": null
+  },
+  "saltonmassally": {
+    "login": "saltonmassally",
+    "location": "Arlington, Massachusetts"
+  },
+  "sdhuka": {
+    "login": "sdhuka",
+    "location": "Austin, TX"
+  },
+  "frimfram": {
+    "login": "frimfram",
+    "location": "Northern California"
+  },
+  "gpanshu": {
+    "login": "gpanshu",
+    "location": null
+  },
+  "richardissuperman": {
+    "login": "richardissuperman",
+    "location": "San Francisco"
+  },
+  "kjones": {
+    "login": "kjones",
+    "location": "Boulder, CO"
+  },
+  "edgar-zigis": {
+    "login": "edgar-zigis",
+    "location": "Vilnius, Lithuania"
+  },
+  "ivpdev": {
+    "login": "ivpdev",
+    "location": null
+  },
+  "joekiller": {
+    "login": "joekiller",
+    "location": "Virginia"
+  },
+  "patrickhoette": {
+    "login": "patrickhoette",
+    "location": null
+  },
+  "hellosagar": {
+    "login": "hellosagar",
+    "location": "Berlin, Germany"
+  },
+  "nealflaherty": {
+    "login": "nealflaherty",
+    "location": null
+  },
+  "kaichengyan": {
+    "login": "kaichengyan",
+    "location": "Bellevue, WA"
+  },
+  "Abhishek01039": {
+    "login": "Abhishek01039",
+    "location": "India"
+  },
+  "Equartey": {
+    "login": "Equartey",
+    "location": "Provo, Utah"
+  },
+  "mrhota": {
+    "login": "mrhota",
+    "location": "Chattanooga, TN"
+  },
+  "JamesMcIntosh": {
+    "login": "JamesMcIntosh",
+    "location": null
+  },
+  "jodafm": {
+    "login": "jodafm",
+    "location": null
+  },
+  "lukaselmer": {
+    "login": "lukaselmer",
+    "location": "Zurich"
+  },
+  "SuTran": {
+    "login": "SuTran",
+    "location": null
+  },
+  "caravanat": {
+    "login": "caravanat",
+    "location": "RJ, Brasil"
+  },
+  "czaefferer": {
+    "login": "czaefferer",
+    "location": null
+  },
+  "hexch": {
+    "login": "hexch",
+    "location": null
+  },
+  "zchenwei": {
+    "login": "zchenwei",
+    "location": "Menlo Park, CA"
+  },
+  "hvergara": {
+    "login": "hvergara",
+    "location": "Castro, Chile"
+  },
+  "0618": {
+    "login": "0618",
+    "location": "Seattle"
+  },
+  "alharris-at": {
+    "login": "alharris-at",
+    "location": "Seattle, WA"
+  },
+  "Jesmaster": {
+    "login": "Jesmaster",
+    "location": null
+  },
+  "strugman": {
+    "login": "strugman",
+    "location": "Poznań, Poland"
+  },
+  "AbhishekDesai99": {
+    "login": "AbhishekDesai99",
+    "location": null
+  },
+  "amirHossein-Ebrahimi": {
+    "login": "amirHossein-Ebrahimi",
+    "location": "Birjand"
+  },
+  "ayush987goyal": {
+    "login": "ayush987goyal",
+    "location": "Bengaluru, India"
+  },
+  "eli6": {
+    "login": "eli6",
+    "location": "Berlin"
+  },
+  "enes-sahin": {
+    "login": "enes-sahin",
+    "location": null
+  },
+  "artidata": {
+    "login": "artidata",
+    "location": "Indonesia"
+  },
+  "JrPribs": {
+    "login": "JrPribs",
+    "location": "Chesapeake, VA"
+  },
+  "interdigitize": {
+    "login": "interdigitize",
+    "location": null
+  },
+  "lacion": {
+    "login": "lacion",
+    "location": "Madrid"
+  },
+  "Ashafix": {
+    "login": "Ashafix",
+    "location": "Munich, Germany"
+  },
+  "ppraja22": {
+    "login": "ppraja22",
+    "location": "Bangalore"
+  },
+  "rvmourik": {
+    "login": "rvmourik",
+    "location": "The Netherlands"
+  },
+  "th3oxen": {
+    "login": "th3oxen",
+    "location": null
+  },
+  "dhandsar-aws": {
+    "login": "dhandsar-aws",
+    "location": "Seattle WA"
+  },
+  "sdsanders": {
+    "login": "sdsanders",
+    "location": "Yorkville, IL"
+  },
+  "sgpopov": {
+    "login": "sgpopov",
+    "location": "Sofia, Bulgaria"
+  },
+  "franscal7": {
+    "login": "franscal7",
+    "location": null
+  },
+  "IsaacTrevino": {
+    "login": "IsaacTrevino",
+    "location": "South Texas"
+  },
+  "Nekoya3": {
+    "login": "Nekoya3",
+    "location": "Japan, Hokkaido, Asahikawa"
+  }
+}
