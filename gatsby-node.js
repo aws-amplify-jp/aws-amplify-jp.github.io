@@ -9,18 +9,22 @@ const inJapan = (username, users) => {
   );
 };
 
-async function fetchUsers() {
-  const url =
-    "https://raw.githubusercontent.com/aws-amplify-jp/aws-amplify-contributors/main/assets/users.json";
+async function fetchJson(url) {
+  console.log(`Downloading ${url}`);
   const response = await fetch(url);
   return response.json();
 }
 
+async function fetchUsers() {
+  const url =
+    "https://raw.githubusercontent.com/aws-amplify-jp/aws-amplify-contributors/main/assets/users.json";
+  return await fetchJson(url);
+}
+
 async function fetchContributors() {
-  const contributorsUrl =
+  const url =
     "https://raw.githubusercontent.com/aws-amplify-jp/aws-amplify-contributors/main/assets/contributors.json";
-  const response = await fetch(contributorsUrl);
-  return response.json();
+  return await fetchJson(url);
 }
 
 async function readUsersInJapan() {
