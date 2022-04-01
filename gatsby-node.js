@@ -1,6 +1,6 @@
-const { GitHubClient } = require("./src/utils/github");
 const fs = require("fs");
 const path = require("path");
+const fetch = require("node-fetch");
 
 const inJapan = (username, users) => {
   const user = users[username];
@@ -9,75 +9,56 @@ const inJapan = (username, users) => {
   );
 };
 
-const repositories = [
-  {
-    owner: "aws-amplify-jp",
-    repos: ["aws-amplify-jp.github.io", "awesome-aws-amplify-ja"],
-  },
-  {
-    owner: "aws-amplify",
-    repos: [
-      "amplify-js",
-      "amplify-cli",
-      "docs",
-      "amplify-ios",
-      "amplify-android",
-      "amplify-flutter",
-      "amplify-ui",
-      "maplibre-gl-js-amplify",
-    ],
-    filter: inJapan,
-  },
-];
-
-async function fetchUsers(client, contributors, users) {
-  for (const contributor of contributors) {
-    const { login } = contributor;
-    if (Object.prototype.hasOwnProperty.call(users, login)) {
-      continue;
-    }
-    const user = await client.fetchUser(login);
-    if (!user) {
-      continue;
-    }
-    users[login] = {
-      login,
-      location: user.location,
-    };
-  }
+async function fetchUsers() {
+  const url =
+    "https://raw.githubusercontent.com/aws-amplify-jp/aws-amplify-contributors/main/assets/users.json";
+  const response = await fetch(url);
+  return response.json();
 }
 
 async function fetchContributors() {
-  const usersJsonPath = path.join(
+  const contributorsUrl =
+    "https://raw.githubusercontent.com/aws-amplify-jp/aws-amplify-contributors/main/assets/contributors.json";
+  const response = await fetch(contributorsUrl);
+  return response.json();
+}
+
+async function readUsersInJapan() {
+  const usersInJapanJsonPath = path.join(
     __dirname,
-    "./src/contents/contributors/users.json"
+    "./src/contents/contributors/users-in-japan.json"
   );
-  const users = fs.existsSync(usersJsonPath)
-    ? JSON.parse(fs.readFileSync(usersJsonPath, { encoding: "utf8" }))
-    : {};
+  return fs.existsSync(usersInJapanJsonPath)
+    ? JSON.parse(
+        await fs.promise.readFile(usersInJapanJsonPath, { encoding: "utf8" })
+      )
+    : [];
+}
+
+async function fetchContributorsInJapan() {
+  const usersInJapan = await readUsersInJapan();
+  const repositories = await fetchContributors();
+  const users = await fetchUsers();
+  // locationだけで日本と判断できないユーザーを明示的に日本であると補完する
+  usersInJapan.forEach((userInJapan) => {
+    const user = users.find((user) => user.login === userInJapan);
+    if (user) {
+      user.japan = true;
+    }
+  });
 
   const contributorList = [];
-  const client = new GitHubClient({ auth: process.env.GITHUB_TOKEN });
-  for (const { owner, repos, filter } of repositories) {
-    for (const repo of repos) {
-      const contributors = await client.fetchContributors(owner, repo);
-      await fetchUsers(client, contributors, users);
-      contributorList.push(
-        ...contributors
-          .filter(({ login }) =>
-            typeof filter === "function" ? filter(login, users) : true
-          )
-          .map((contributor) => ({
-            owner,
-            repo,
-            contributor,
-          }))
-      );
-    }
+  for (const { owner, repo, contributors } of repositories) {
+    contributorList.push(
+      ...contributors
+        .filter(({ login }) => owner === "aws-amplify-jp" || inJapan(login, users))
+        .map((contributor) => ({
+          owner,
+          repo,
+          contributor,
+        }))
+    );
   }
-
-  await fs.promises.writeFile(usersJsonPath, JSON.stringify(users, null, 2));
-
   return contributorList;
 }
 
@@ -89,7 +70,7 @@ exports.sourceNodes = async ({
   //
   // Create nodes for all of the contributors
   //
-  const contributors = await fetchContributors();
+  const contributors = await fetchContributorsInJapan();
   contributors.forEach(({ owner, repo, contributor }) => {
     const { login, avatar_url, html_url } = contributor;
     const repository = `${owner}/${repo}`;
