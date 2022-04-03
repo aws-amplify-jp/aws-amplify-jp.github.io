@@ -22,6 +22,7 @@ import {
   Business as BusinessIcon,
   School as SchoolIcon,
   Close as CloseIcon,
+  People as PeopleIcon,
 } from "@material-ui/icons";
 import Link from "./Link";
 import LogoIcon from "../images/logo.svg";
@@ -120,6 +121,14 @@ export default function Header(props) {
             <ListItemText primary="レポート" />
           </ListItem>
         </Link>
+        <Link to="/contributors">
+          <ListItem button>
+            <ListItemIcon>
+              <PeopleIcon />
+            </ListItemIcon>
+            <ListItemText primary="コントリビューター" />
+          </ListItem>
+        </Link>
       </List>
     </>
   );
@@ -185,6 +194,12 @@ export default function Header(props) {
                     <Link to="/reports">
                       <DescriptionIcon className={classes.icon} />
                       レポート
+                    </Link>
+                  </Grid>
+                  <Grid item>
+                    <Link to="/contributors" color="inherit">
+                      <PeopleIcon className={classes.icon} />
+                      コントリビューター
                     </Link>
                   </Grid>
                   <Grid item>
