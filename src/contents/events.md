@@ -13,6 +13,8 @@ PRにて受け付けています。[こちら](https://github.com/aws-amplify-jp
 
 | イベント名           | 日時               | 詳細 URL                                          |
 | :------------------- | :----------------- | :------------------------------------------------ |
+| Amplify Boost Up #04 | 2023年12月14日 | https://aws-amplify-jp.connpass.com/event/300944/ |
+| AWSカーニバル ~秋の祭典スペシャル！~ | 2023年11月4日 | https://aws-amplify-jp.connpass.com/event/296406/ |
 | Amplify Boost Up #03 | 2023年7月26日 | https://aws-amplify-jp.connpass.com/event/284533/ |
 | Amplify Boost Up #02 | 2023年3月17日 | https://aws-amplify-jp.connpass.com/event/273121/ |
 |【Amplify Studio×LIFF×Figma】ローコードで電子チケットアプリを作るハンズオン| 2022年2月18日 | https://linedevelopercommunity.connpass.com/event/237286/ |
