@@ -30,3 +30,4 @@ AWS Amplify の利用方法、実運用含めた開発時の知見や課題、�
 - Ryotaro Tsuzuki ([@_unirt](https://twitter.com/_unirt))
 - Takahiro Suzuki ([@tkasuz](https://twitter.com/tkasuz))
 - Riku Inada ([@inada_riku](https://twitter.com/inada_riku))
+- Masachika Kuwabara ([@mkdev_10](https://twitter.com/mkdev_10))
