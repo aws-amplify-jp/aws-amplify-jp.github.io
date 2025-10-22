@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Lighthouse against to a static dist dir
-        uses: treosh/lighthouse-ci-action@v10
+        uses: treosh/lighthouse-ci-action@v12
         with:
           configPath: ./.lighthouse.js
           uploadArtifacts: true
