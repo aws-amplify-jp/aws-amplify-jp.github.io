@@ -28,7 +28,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v8
         with:
           configPath: ./.lighthouse.js
-          uploadArtifacts: true
+          uploadArtifacts: false
           temporaryPublicStorage: true
         env:
           LHCI_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
