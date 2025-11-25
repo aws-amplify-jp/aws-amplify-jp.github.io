@@ -7,3 +7,4 @@ src/contents/external/*
 !src/contents/external/mapping.json
 
 .lighthouseci/
+.DS_Store
