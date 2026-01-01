@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Default from "../containers/Default";
-import Hero from "../components/Hero";
+
 import Contributors from "../components/markdown/Contributors";
 import ReportIndex, {
   ToReportsIndexLink,
@@ -55,7 +55,7 @@ export default function Template({ data }) {
   
   return (
     <Default>
-      {isHomePage && <Hero />}
+
       <div>{content}</div>
     </Default>
   );
