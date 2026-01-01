@@ -4,7 +4,6 @@ import {
   Typography,
   AppBar,
   Drawer,
-  Hidden,
   IconButton,
   Toolbar,
   Divider,
@@ -154,13 +153,14 @@ export default function Header(props) {
                     src={LogoIcon}
                   />
                   &nbsp;
-                  <Hidden
-                    smDown
-                    implementation="css"
+                  <Box
+                    sx={{
+                      display: { xs: 'none', sm: 'inline' },
+                    }}
                     className="inline"
                   >
                     Amplify Japan User Group
-                  </Hidden>
+                  </Box>
                   <span role="img" aria-label="日本国旗">
                     🇯🇵
                   </span>
@@ -168,7 +168,9 @@ export default function Header(props) {
               </Typography>
             </Grid>
             <Grid item>
-              <Hidden mdDown implementation="css">
+            <Box sx={{
+              display: { xs: 'none', md: 'block' },
+            }}>
                 <Grid
                   container
                   justifyContent="flex-end"
@@ -206,13 +208,14 @@ export default function Header(props) {
                     </Link>
                   </Grid>
                 </Grid>
-              </Hidden>
+              </Box>
             </Grid>
           </Grid>
         </Toolbar>
       </AppBar>
-      <Hidden lgUp implementation="css">
-        <nav className="drawer">
+      <Box component="nav" sx={{
+        display: { xs: 'block', lg: 'none' },
+      }} className="drawer">
           <Drawer
             container={container}
             variant="temporary"
@@ -227,8 +230,7 @@ export default function Header(props) {
           >
             {ResponsiveDrawer}
           </Drawer>
-        </nav>
-      </Hidden>
+        </Box>
       <Box className="spacer" />
     </Root>
   );

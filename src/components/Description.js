@@ -1,11 +1,14 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import { description } from "../../package.json";
+import pkg from "../../package.json";
+
+export function Head() {
+  return (
+    <>
+      <meta name="description" content={pkg.description} />
+    </>
+  );
+}
 
 export default function Description() {
-  return (
-    <Helmet>
-      <meta name="description" content={description} />
-    </Helmet>
-  );
+  return null;
 }

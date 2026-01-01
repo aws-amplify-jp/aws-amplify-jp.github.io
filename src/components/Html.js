@@ -1,10 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 
-export default function Description() {
+export function Head() {
   return (
-    <Helmet>
-      <html lang="ja" />
-    </Helmet>
+    <html lang="ja" />
   );
+}
+
+export default function Html() {
+  return null;
 }
