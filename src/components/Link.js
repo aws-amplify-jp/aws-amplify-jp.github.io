@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 import { Link as GatsbyLink } from "gatsby";
 import classnames from "classnames";
 
-const StyledAnchor = styled('a')(({ theme, primary, contrast }) => ({
+const linkStyles = ({ theme, primary, contrast }) => ({
   color: "inherit",
   textDecoration: "none",
   "&:hover": {
@@ -15,7 +15,10 @@ const StyledAnchor = styled('a')(({ theme, primary, contrast }) => ({
   ...(contrast && {
     color: theme.palette.primary.contrastText,
   }),
-}));
+});
+
+const StyledAnchor = styled('a')(linkStyles);
+const StyledGatsbyLink = styled(GatsbyLink)(linkStyles);
 
 
 export default function Link({ children, primary, contrast, ...all }) {
@@ -45,15 +48,22 @@ export default function Link({ children, primary, contrast, ...all }) {
         <StyledAnchor
           {...all}
           className={anchorClass}
+          primary={primary}
+          contrast={contrast}
           target="_blank"
           rel="noopener noreferrer"
         >
           {children}
         </StyledAnchor>
       ) : (
-        <GatsbyLink {...all} className={anchorClass}>
+        <StyledGatsbyLink 
+          {...all} 
+          className={anchorClass}
+          primary={primary}
+          contrast={contrast}
+        >
           {children}
-        </GatsbyLink>
+        </StyledGatsbyLink>
       )}
     </>
   );
