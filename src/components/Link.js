@@ -6,8 +6,9 @@ import classnames from "classnames";
 const linkStyles = ({ theme, primary, contrast }) => ({
   color: "inherit",
   textDecoration: "none",
+  transition: "color 0.3s ease-in-out",
   "&:hover": {
-    textDecoration: "underline",
+    color: theme.palette.primary.main,
   },
   ...(primary && {
     color: theme.palette.primary.main,

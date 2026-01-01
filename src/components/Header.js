@@ -39,7 +39,8 @@ const Root = styled('div')(({ theme }) => ({
   },
   "& .title": {
     fontSize: "1.1rem",
-    fontWeight: "bold",
+    fontWeight: 500,
+    letterSpacing: "0.05em",
   },
   "& .drawer": {
     width: drawerWidth,
@@ -131,7 +132,14 @@ export default function Header(props) {
 
   return (
     <Root>
-      <AppBar position="fixed">
+      <AppBar
+        component="nav"
+        sx={{
+          bgcolor: "rgba(255, 255, 255, 0.7)", // Semi-transparent white background
+          boxShadow: "none",
+          backdropFilter: "blur(10px)", // Glass-like blur effect
+        }}
+      >
         <Toolbar>
           <IconButton
             color="inherit"
@@ -139,20 +147,21 @@ export default function Header(props) {
             edge="start"
             onClick={handleDrawerToggle}
             className="menuButton"
+            sx={{ color: "black" }}
           >
             <MenuIcon />
           </IconButton>
           <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
               <Typography variant="h6" className="title">
-                <Link to="/" color="inherit" className="logo">
+                <Link to="/" color="inherit" className="logo" sx={{ color: "black" }}>
                   <img
-                    width="26"
-                    height="26"
+                    width="32"
+                    height="32"
                     alt="Amplifyのロゴ"
                     src={LogoIcon}
                   />
-                  &nbsp;
+                  <Box sx={{ mr: 1 }} />
                   <Box
                     sx={{
                       display: { xs: 'none', sm: 'inline' },
@@ -178,31 +187,31 @@ export default function Header(props) {
                   spacing={1}
                 >
                   <Grid item>
-                    <Link to="/events">
+                    <Link to="/events" sx={{ color: "black" }}>
                       <EventIcon className="icon" />
                       イベント
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/resources">
+                    <Link to="/resources" sx={{ color: "black" }}>
                       <SchoolIcon className="icon" />
                       リソース
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/reports">
+                    <Link to="/reports" sx={{ color: "black" }}>
                       <DescriptionIcon className="icon" />
                       レポート
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/contributors" color="inherit">
+                    <Link to="/contributors" color="inherit" sx={{ color: "black" }}>
                       <PeopleIcon className="icon" />
                       コントリビューター
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/companies" color="inherit">
+                    <Link to="/companies" color="inherit" sx={{ color: "black" }}>
                       <BusinessIcon className="icon" />
                       利用企業
                     </Link>

@@ -36,7 +36,7 @@ module.exports = {
         short_name: `Amplify 日本ユーザーグループ`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#ff9900`,
+        theme_color: `#1976D2`,
         display: `standalone`,
         icon: `src/images/favicon-32x32.png`,
       },
