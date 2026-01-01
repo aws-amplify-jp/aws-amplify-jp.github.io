@@ -13,6 +13,9 @@ PRにて受け付けています。[こちら](https://github.com/aws-amplify-jp
 
 | イベント名           | 日時               | 詳細 URL                                          |
 | :------------------- | :----------------- | :------------------------------------------------ |
+| AWS Amplify Conference 2026 by Amplify Japan UG | 2026年1月20日 | [イベントサイト](../conference/2026/) |
+| Amplify Boost Up #09ーAWS CDK Conference ハンズオン 復習会 | 2025年7月29日 | https://aws-amplify-jp.connpass.com/event/362557/ |
+| Amplify Boost Up #08ーAmplify AI Kit オンライン ハンズオン | 2025年4月24日 | https://aws-amplify-jp.connpass.com/event/350962/ |
 | Amplify Boost Up #07 | 2024年12月19日 | https://aws-amplify-jp.connpass.com/event/334686/ |
 | Amplify Boost Up #06 | 2024年7月31日 | https://aws-amplify-jp.connpass.com/event/321534/ |
 | Amplify Boost Up #05 | 2024年4月30日 | https://aws-amplify-jp.connpass.com/event/312975/ |
