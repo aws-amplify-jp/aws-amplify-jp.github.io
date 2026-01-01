@@ -1,25 +1,10 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { makeStyles } from "@material-ui/core/styles";
-import { Avatar, Tooltip, Link } from "@material-ui/core";
-
-const useStyles = makeStyles((theme) => ({
-  list: {
-    display: "grid",
-    gridTemplateColumns: `repeat(auto-fill, ${theme.spacing(7)}px)`,
-    gap: theme.spacing(1),
-    listStyle: "none",
-    padding: 0,
-    margin: 0,
-  },
-  avatar: {
-    width: theme.spacing(7),
-    height: theme.spacing(7),
-  },
-}));
+import { Avatar, Tooltip, Link, Box } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 
 export default function Contributors() {
-  const classes = useStyles();
+  const theme = useTheme();
   const query = useStaticQuery(graphql`
     query {
       allContributor {
@@ -47,17 +32,34 @@ export default function Contributors() {
   return Object.keys(repositoryList).map((repository) => (
     <div key={repository}>
       <h3>{repository}</h3>
-      <ul className={classes.list}>
+      <Box
+        component="ul"
+        sx={{
+          display: "grid",
+          gridTemplateColumns: `repeat(auto-fill, ${theme.spacing(7)})`,
+          gap: theme.spacing(1),
+          listStyle: "none",
+          padding: 0,
+          margin: 0,
+        }}
+      >
         {repositoryList[repository].map(({ name, avatar, url }) => (
           <Tooltip title={name} arrow key={name}>
             <li>
               <Link href={url}>
-                <Avatar alt={name} src={avatar} className={classes.avatar} />
+                <Avatar
+                  alt={name}
+                  src={avatar}
+                  sx={{
+                    width: theme.spacing(7),
+                    height: theme.spacing(7),
+                  }}
+                />
               </Link>
             </li>
           </Tooltip>
         ))}
-      </ul>
+      </Box>
     </div>
   ));
 }

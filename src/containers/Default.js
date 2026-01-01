@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "@material-ui/core";
+import { Container } from "@mui/material";
 import Title from "../components/Title";
 import Description from "../components/Description";
 import Html from "../components/Html";

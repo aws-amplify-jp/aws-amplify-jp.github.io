@@ -1,21 +1,25 @@
 const React = require("react");
-const { ServerStyleSheets } = require("@material-ui/styles");
+const { CacheProvider } = require("@emotion/react");
+const { renderToString } = require("react-dom/server");
+const createEmotionServer = require("@emotion/server/create-instance").default;
+const createEmotionCache = require("./src/createEmotionCache");
 
-// Using replaceRenderer (legacy API) for Material-UI v4 JSS SSR support.
-// This is the recommended approach for Material-UI v4 with JSS in Gatsby v4.
-// For Material-UI v5+, migrate to wrapRootElement with Emotion instead.
 exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
-  const sheets = new ServerStyleSheets();
-  const bodyHTML = require("react-dom/server").renderToString(
-    sheets.collect(bodyComponent)
+  const cache = createEmotionCache();
+  const { extractCriticalToChunks, constructStyleTagsFromChunks } = createEmotionServer(cache);
+
+  const bodyHTML = renderToString(
+    <CacheProvider value={cache}>{bodyComponent}</CacheProvider>
   );
+
+  const chunks = extractCriticalToChunks(bodyHTML);
+  const styles = constructStyleTagsFromChunks(chunks);
 
   replaceBodyHTMLString(bodyHTML);
   setHeadComponents([
-    <style
-      id="jss-server-side"
-      key="jss-server-side"
-      dangerouslySetInnerHTML={{ __html: sheets.toString() }}
+    <div
+      key="emotion-styles"
+      dangerouslySetInnerHTML={{ __html: styles }}
     />,
   ]);
 };
