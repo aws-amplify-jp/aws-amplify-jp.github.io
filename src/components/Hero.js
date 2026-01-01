@@ -26,13 +26,12 @@ const HeroSection = styled(Box)(({ theme }) => ({
   },
 }));
 
-const HeroBackground = styled(Box)(({ backgroundImage }) => ({
+const HeroBackground = styled(Box)(({ theme }) => ({
   position: "absolute",
   top: 0,
   left: 0,
   right: 0,
   bottom: 0,
-  backgroundImage: `url(${backgroundImage})`,
   backgroundSize: "cover",
   backgroundPosition: "center",
   "&::before": {
@@ -104,7 +103,11 @@ const CTAButton = styled(Button)(({ theme }) => ({
 export default function Hero() {
   return (
     <HeroSection>
-      <HeroBackground backgroundImage={HeroImage} />
+      <HeroBackground 
+        sx={{
+          backgroundImage: `url(${HeroImage})`,
+        }}
+      />
       <HeroContent>
         <HeroTitle variant="h1">
           Amplify Japan User Group
