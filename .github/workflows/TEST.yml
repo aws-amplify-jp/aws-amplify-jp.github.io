@@ -9,13 +9,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: 14.x
-      - name: Use the latest npm
-        run: npm i -g npm
+          node-version-file: ".nvmrc"
+      - name: Use npm
+        run: corepack enable npm
       - name: Run npm install
         run: npm ci
       - name: Run npm test
@@ -28,7 +28,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v8
         with:
           configPath: ./.lighthouse.js
-          uploadArtifacts: true
+          uploadArtifacts: false
           temporaryPublicStorage: true
         env:
           LHCI_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

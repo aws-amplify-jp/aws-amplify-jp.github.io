@@ -1,7 +1,9 @@
 [
   "jaga810",
   "yana-katty",
+  "hirofumi",
   "h-kishi",
   "kooooohe",
+  "yosuke-matsuda",
   "yuuu"
 ]
