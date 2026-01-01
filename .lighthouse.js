@@ -3,9 +3,7 @@ module.exports = {
     collect: {
       // collect options here
       staticDistDir: "./public",
-      url: [
-        "http://localhost/index.html",
-      ]
+      url: ["http://localhost/"]
     },
     assert: {
       assertions: {
