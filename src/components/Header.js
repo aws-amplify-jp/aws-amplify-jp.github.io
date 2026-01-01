@@ -135,9 +135,9 @@ export default function Header(props) {
       <AppBar
         component="nav"
         sx={{
-          bgcolor: "rgba(255, 255, 255, 0.7)", // Semi-transparent white background
-          boxShadow: "none",
-          backdropFilter: "blur(10px)", // Glass-like blur effect
+          bgcolor: "rgba(255, 255, 255, 0.9)",
+          boxShadow: "0 4px 20px rgba(0,0,0,0.08)",
+          backdropFilter: "blur(10px)",
         }}
       >
         <Toolbar>
@@ -187,32 +187,94 @@ export default function Header(props) {
                   spacing={1}
                 >
                   <Grid item>
-                    <Link to="/events" sx={{ color: "black" }}>
-                      <EventIcon className="icon" />
+                    <Link 
+                      to="/events" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <EventIcon className="icon" sx={{ mr: 0.5 }} />
                       イベント
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/resources" sx={{ color: "black" }}>
-                      <SchoolIcon className="icon" />
+                    <Link 
+                      to="/resources" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <SchoolIcon className="icon" sx={{ mr: 0.5 }} />
                       リソース
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/reports" sx={{ color: "black" }}>
-                      <DescriptionIcon className="icon" />
+                    <Link 
+                      to="/reports" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <DescriptionIcon className="icon" sx={{ mr: 0.5 }} />
                       レポート
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/contributors" color="inherit" sx={{ color: "black" }}>
-                      <PeopleIcon className="icon" />
+                    <Link 
+                      to="/contributors" 
+                      color="inherit" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <PeopleIcon className="icon" sx={{ mr: 0.5 }} />
                       コントリビューター
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/companies" color="inherit" sx={{ color: "black" }}>
-                      <BusinessIcon className="icon" />
+                    <Link 
+                      to="/companies" 
+                      color="inherit" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <BusinessIcon className="icon" sx={{ mr: 0.5 }} />
                       利用企業
                     </Link>
                   </Grid>

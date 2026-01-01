@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Default from "../containers/Default";
+import Hero from "../components/Hero";
 import Contributors from "../components/markdown/Contributors";
 import ReportIndex, {
   ToReportsIndexLink,
@@ -48,10 +49,13 @@ function renderAst(node, index = 0) {
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
-  const { htmlAst } = markdownRemark;
+  const { htmlAst, frontmatter } = markdownRemark;
   const content = renderAst(htmlAst);
+  const isHomePage = frontmatter.slug === "/";
+  
   return (
     <Default>
+      {isHomePage && <Hero />}
       <div>{content}</div>
     </Default>
   );

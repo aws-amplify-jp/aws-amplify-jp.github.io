@@ -1,0 +1,81 @@
+/* Markdown content styling */
+h1 {
+  color: #232F3E;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #FF9900;
+}
+
+h2 {
+  color: #232F3E;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgba(255, 153, 0, 0.3);
+}
+
+h3 {
+  color: #37475A;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+a {
+  color: #FF9900;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: #CC7A00;
+  border-bottom-color: #CC7A00;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+code {
+  background-color: rgba(255, 153, 0, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: #232F3E;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+blockquote {
+  border-left: 4px solid #FF9900;
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  color: #5A5A5A;
+  font-style: italic;
+}
