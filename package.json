@@ -28,10 +28,10 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@gatsbyjs/reach-router": "^2.0.1",
-    "@mui/icons-material": "^5.15.14",
-    "@mui/lab": "^5.0.0-alpha.165",
-    "@mui/material": "^5.15.14",
-    "classnames": "latest",
+    "@mui/icons-material": "^5.18.0",
+    "@mui/lab": "^5.0.0-alpha.177",
+    "@mui/material": "^5.18.0",
+    "classnames": "^2.5.1",
     "gatsby": "^5.15.0",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-manifest": "^5.15.0",
@@ -39,17 +39,17 @@
     "gatsby-remark-component": "latest",
     "gatsby-source-filesystem": "^5.15.0",
     "gatsby-transformer-remark": "^6.15.0",
-    "prettier": "latest",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "rehype-react": "latest",
-    "remark-parse": "latest",
-    "remark-rehype": "latest",
-    "unified": "latest"
+    "prettier": "^3.7.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rehype-react": "^8.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
-    "glob": "latest",
-    "node-fetch": "latest",
-    "uuid": "latest"
+    "glob": "^13.0.0",
+    "node-fetch": "^3.3.2",
+    "uuid": "^13.0.0"
   }
 }
