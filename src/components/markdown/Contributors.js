@@ -44,7 +44,7 @@ export default function Contributors() {
 
   return Object.keys(repositoryList).map((repository) => (
     <div key={repository}>
-      <h3>{repository}</h3>
+      <h3><a href={`https://github.com/${repository}`}>{repository}</a></h3>
       <List>
         {repositoryList[repository].map(({ name, avatar, url }) => (
           <Tooltip title={name} arrow key={name}>
