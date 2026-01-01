@@ -91,3 +91,14 @@ exports.sourceNodes = async ({
     });
   });
 };
+
+exports.onCreateDevServer = ({ app }) => {
+  const staticDir = path.join(__dirname, "static");
+
+  // Gatsbyの開発サーバーに静的ディレクトリを追加
+  if (fs.existsSync(staticDir)) {
+    const serveStatic = require("serve-static");
+    app.use(serveStatic(staticDir));
+    console.log(`[dev] Serving static files from ${staticDir}`);
+  }
+};
