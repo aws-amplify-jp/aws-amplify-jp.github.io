@@ -74,7 +74,6 @@ const HeroTitle = styled(Typography)(({ theme }) => ({
 
 const HeroSubtitle = styled(Typography)(({ theme }) => ({
   fontSize: "1.25rem",
-  marginBottom: theme.spacing(4),
   textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
   lineHeight: 1.8,
   maxWidth: "800px",
