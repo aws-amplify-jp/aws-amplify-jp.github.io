@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS Amplify Conference 2026 by Amplify Japan User Group</title>
+  <meta name="description" content="Amplifyで新規事業を加速させるヒントが集まる1日。AWS Amplify Conference 2026 by Amplify Japan User Group。ハンズオンからキーノート、登壇まで幅広く実施。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="fixed-header">
+    <div class="fixed-header__inner">
+      <div class="fixed-header__logo">
+        <div class="logo-main">AWS Amplify Conference 2026</div>
+        <div class="logo-sub">by Amplify Japan User Group</div>
+      </div>
+      <nav class="fixed-header__nav">
+        <a href="#about">概要</a>
+        <a href="#schedule">スケジュール</a>
+        <a href="#speakers">登壇者</a>
+        <a href="#venue">会場</a>
+        <a href="#register">参加登録</a>
+      </nav>
+    </div>
+  </header>
+  <header class="hero">
+    <div class="hero__gradient"></div>
+    <div class="hero__content">
+      <div class="hero__layout">
+        <div class="hero__copy">
+          <p class="hero__pill">Amplify Japan User Group presents</p>
+          <h1 class="hero__title">
+            AWS Amplify Conference 2026
+            <span class="hero__title-by">by Amplify Japan User Group</span>
+            <span class="hero__title-tagline">新規事業を加速させるAmplifyの魅力を探る</span>
+          </h1>
+          <p class="hero__description">
+            スタートアップだけでなく、大企業の新規事業開発担当者・技術リーダーまでを対象にした1日限りの集中イベント。
+            PoCから事業化まで実現するAmplify活用のリアルな事例と学びをお届けします。
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="https://aws-amplify-jp.connpass.com/event/374628/">参加登録</a>
+            <a class="button button--ghost" href="https://aws-amplify-jp.connpass.com/">関連イベント情報</a>
+            <a class="button button--light" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=AWS%20Amplify%20Conference%202026&dates=20260120T010000Z/20260120T103000Z&details=Amplify%20Japan%20User%20Group%E3%81%8C%E4%B8%BB%E5%82%AC%E3%81%99%E3%82%8B%E5%B9%B4%E3%81%AB%E4%B8%80%E5%BA%A6%E3%81%AE%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%0A%0A%E8%A9%B3%E7%B4%B0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%3A%20https%3A//aws-amplify-jp.github.io/conference/2026/&location=%E7%9B%AE%E9%BB%92%E3%82%BB%E3%83%B3%E3%83%88%E3%83%A9%E3%83%AB%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%2021F%20%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0" target="_blank" rel="noopener">Googleカレンダーに追加</a>
+          </div>
+          <dl class="hero__meta">
+            <div>
+              <dt>開催日時</dt>
+              <dd>2026年1月20日(火) 10:00–17:00<br>懇親会 17:30–19:30</dd>
+            </div>
+            <div>
+              <dt>会場</dt>
+              <dd>目黒セントラルスクエア 21F セミナールーム</dd>
+            </div>
+            <div>
+              <dt>定員</dt>
+              <dd>本編 120名 / ハンズオン 30名</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" id="about">
+      <div class="section__inner">
+        <h2>Amplifyで事業を前に進めるためのヒントがここに</h2>
+        <p>
+          Amplify Japan User Groupが主催する年に一度のカンファレンス。Amplifyをまだ採用していないチームや、新規事業の立ち上げを加速させたいリーダーに向けて、
+          実践的な知見とコミュニティとのつながりを提供します。午前は初心者向けハンズオンで「Amplifyの第一歩」を体験し、午後は企業での活用事例やPoCから事業化までの道のりを共有します。
+        </p>
+        <div class="pill-grid">
+          <span>PoCから本番までの最短距離</span>
+          <span>Amplifyで実現する高速立ち上げ</span>
+          <span>初期コスト最適化とガバナンス</span>
+          <span>マイグレーションコストの低減</span>
+          <span>OSSコミュニティとの連携</span>
+          <span>持続可能なプロダクト開発</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="audience">
+      <div class="section__inner audience__grid">
+        <div class="audience__card">
+          <h3>対象となる方</h3>
+          <ul>
+            <li>新規事業開発・DX推進のリーダー</li>
+            <li>スピーディなPoCを求めるプロダクトオーナー</li>
+            <li>AWS活用を部署に広げたいテックリード</li>
+            <li>Amplify未経験だが検討中のエンジニア・PM</li>
+          </ul>
+        </div>
+        <div class="audience__card">
+          <h3>得られる価値</h3>
+          <ul>
+            <li>Amplify導入の意思決定に役立つ成功・失敗事例</li>
+            <li>PoCと本番を橋渡しするアーキテクチャと運用ノウハウ</li>
+            <li>社内提案を後押しする事例や情報</li>
+            <li>コミュニティを通じた継続的なナレッジシェア</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="section__inner">
+        <h2>プログラム・ハイライト</h2>
+        <div class="timeline">
+          <article>
+            <h3>ハンズオン</h3>
+            <p>AmplifyもAWSも初めての方向けに、サービス構築のワークショップを実施。ゼロからアプリを公開するまでの流れを体験します。</p>
+            <span class="badge">30名限定</span>
+          </article>
+          <article>
+            <h3>Amplifyセッション</h3>
+            <p>Amplifyの基本から最新機能まで、SAによる入門セッション、コミュニティ紹介、プロダクトチームからの最新情報をお届けします。</p>
+
+          </article>
+          <article>
+            <h3>事例紹介セッション</h3>
+            <p>複数の企業・開発チームからのケーススタディ。失敗談や移行コスト、運用ノウハウなどを交え、Amplify導入の実際を語ります。</p>
+          </article>
+          <article>
+            <h3>懇親会</h3>
+            <p>コミュニティメンバーやAWS SAと直接つながるネットワーキング。具体的な導入相談やマッチングの場としてご活用ください。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule" id="schedule">
+      <div class="section__inner">
+        <h2>タイムテーブル（予定）</h2>
+        <div class="schedule__grid">
+          <div class="schedule__col">
+            <h3>午前の部</h3>
+            <ul>
+              <li><span>09:30</span>開場・受付開始</li>
+              <li><span>10:00</span>開会挨拶</li>
+              <li><span>10:10</span>初心者向けハンズオン</li>
+              <li><span>11:30</span>昼休憩</li>
+            </ul>
+          </div>
+          <div class="schedule__col">
+            <h3>午後の部</h3>
+            <ul>
+              <li><span>13:00</span>午後の部再開</li>
+              <li><span>13:10</span>Amplifyセッション</li>
+              <li><span>14:00</span>事例セッション</li>
+              <li><span>17:00</span>閉会挨拶</li>
+            </ul>
+          </div>
+          <div class="schedule__col">
+            <h3>アフターセッション</h3>
+            <ul>
+              <li><span>17:30</span>懇親会（〜19:30）</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="session-details">
+          <h3>午後の部 セッション詳細</h3>
+          <div class="session-table">
+            <div class="session-row session-header">
+              <div class="session-time">時間</div>
+              <div class="session-title">セッション</div>
+              <div class="session-speaker">登壇者</div>
+            </div>
+            <div class="session-row session-category">
+              <div class="session-time"></div>
+              <div class="session-title">Amplifyセッション</div>
+              <div class="session-speaker"></div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">13:10-13:30</div>
+              <div class="session-title">Amplify入門</div>
+              <div class="session-speaker">アマゾン ウェブ サービス ジャパン合同会社 ソリューションアーキテクト 稲田 大陸</div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">13:30-13:40</div>
+              <div class="session-title">コミュニティ紹介</div>
+              <div class="session-speaker">Amplify Japan User Group 池田 健人</div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">13:40-14:00</div>
+              <div class="session-title">Amplifyプロダクトチームによる登壇（翻訳あり）</div>
+              <div class="session-speaker">AWS Amplify Product Team, Senior Product Manager Praneeta Prakash</div>
+            </div>
+            <div class="session-row session-category">
+              <div class="session-time"></div>
+              <div class="session-title">事例紹介セッション</div>
+              <div class="session-speaker"></div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">14:00-14:30</div>
+              <div class="session-title">(仮)サイトの本番公開までにあと2ヶ月しかなかった時</div>
+              <div class="session-speaker">株式会社すかいらーくホールディングス 福田 誠</div>
+            </div>
+            <div class="session-row session-break">
+              <div class="session-time">14:30-14:45</div>
+              <div class="session-title">休憩</div>
+              <div class="session-speaker">-</div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">14:45-15:15</div>
+              <div class="session-title">(仮)紙からWEBへ：AWS Amplifyで実装する薬局の問診票</div>
+              <div class="session-speaker">株式会社エムティーアイ Leinikka Marko Kristian</div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">15:15-15:45</div>
+              <div class="session-title">クラウド知識ゼロからAmplifyで始める新規事業サービス開発</div>
+              <div class="session-speaker">三菱電機株式会社 的場 祐弥</div>
+            </div>
+            <div class="session-row session-break">
+              <div class="session-time">15:45-16:00</div>
+              <div class="session-title">休憩</div>
+              <div class="session-speaker">-</div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">16:00-16:30</div>
+              <div class="session-title">(仮)初めてのモバイルアプリ内製化：Amplifyを用いたバックエンド開発の道のり</div>
+              <div class="session-speaker">シチズン時計株式会社 Rudolf Yoga Hutama<br>シチズン・システムズ株式会社 浅原 一葉</div>
+            </div>
+            <div class="session-row">
+              <div class="session-time">16:30-17:00</div>
+              <div class="session-title">新事業の開発開始から大規模化までの Amplify の実践活用</div>
+              <div class="session-speaker">株式会社ピュアポムメディアラボ 青木 光平</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="speakers" id="speakers">
+      <div class="section__inner speakers__inner">
+        <div class="speakers__header">
+          <h2>登壇者紹介</h2>
+          <p>
+            Amplifyを活用した実践的な知見を共有いただく登壇者の皆様をご紹介します。
+          </p>
+        </div>
+        <div class="speakers__grid">
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="https://d2908q01vomqb2.cloudfront.net/0a57cb53ba59c46fc4b692527a38a87c78d84028/2022/09/16/inariku.jpg" alt="稲田 大陸" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>Amplify入門</h3>
+                <h4>稲田 大陸</h4>
+                <p class="speaker-card__company">アマゾン ウェブ サービス ジャパン合同会社</p>
+                <p class="speaker-card__role">ソリューションアーキテクト</p>
+                <p class="speaker-card__bio">Amplifyの基本概念から実践的な活用方法まで、初心者にも分かりやすく解説します。</p>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  <a href="https://x.com/inada_riku" target="_blank" rel="noopener">@inada_riku</a>
+                </div>
+                <p class="speaker-card__bio">AWS Japan で働く Kiro をこよなく愛すソリューションアーキテクト。Amplify Japan User Group に所属。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1523872023264448512/ZCZYzTiQ_400x400.jpg" alt="池田 健人" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>コミュニティ紹介</h3>
+                <h4>池田 健人</h4>
+                <p class="speaker-card__company">Amplify Japan User Group</p>
+                <p class="speaker-card__role">運営</p>
+                <p class="speaker-card__bio">Amplify Japan User Groupの活動内容や今後の展望についてご紹介します。</p>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  <a href="https://x.com/ikenyal" target="_blank" rel="noopener">@ikenyal</a>
+                </div>
+                <p class="speaker-card__bio">株式会社GENDAでPlatform Engineering部 部長としてEM、SRE/インフラ、QA組織を率いながら、株式会社ZINE 取締役CTOに就任。AWS Community Builder（Front-End Web & Mobile領域）に2021年から継続して採択される。AWS User Group Leaders。Amplify Japan User Group 運営メンバー。一般社団法人 日本CTO協会 個人会員・スタッフ（プロボノ）。NPO法人CancerWith 理事。合同会社BrightFlow 代表社員。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="./images/Praneeta.jpeg" alt="Praneeta Prakash" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>プロダクトチームからのメッセージ</h3>
+                <h4>Praneeta Prakash</h4>
+                <p class="speaker-card__company">Amazon Web Services</p>
+                <p class="speaker-card__role">AWS Amplify Product Team, Senior Product Manager</p>
+                <p class="speaker-card__bio">I build tools that help developers move faster. At AWS, I work on Amplify and the Cloud Development Kit (CDK), focusing on open-source, developer-first products that spark creativity and reduce friction.<br><br>※米国AWSでAmplifyを開発するチームによる登壇です。英語登壇ですが翻訳を実施します。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="./images/fukuda.png" alt="福田 誠" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>(仮)サイトの本番公開までにあと2ヶ月しかなかった時</h3>
+                <h4>福田 誠</h4>
+                <p class="speaker-card__company">株式会社すかいらーくホールディングス</p>
+                <p class="speaker-card__role">マーケティング本部IT統括カスタマーDXグループ Webアプリディレクションチーム リーダー</p>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  <a href="https://x.com/nikonikokin221" target="_blank" rel="noopener">@nikonikokin221</a>
+                </div>
+                <p class="speaker-card__bio">すかいらーくでガストの商品開発担当を務め、その後にメニュー注文端末の導入を実施。導入完了後に DX 戦略チームとして社内の DX を推進する。コロナ時にはオンライン テイクアウト注文サイトをリリースした。現在は分析基盤の構築、各種Webサイト、すかいらーく公式アプリなどマルチプロダクトを担当する。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="./images/Leinikka.jpg" alt="Leinikka Marko Kristian" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>(仮)紙からWEBへ：AWS Amplifyで実装する薬局の問診票</h3>
+                <h4>Leinikka Marko Kristian</h4>
+                <p class="speaker-card__company">株式会社エムティーアイ</p>
+                <p class="speaker-card__role">テクノロジー本部 AIオーケストレーションエンジニア部 ソフトウェアエンジニア</p>
+                <div class="social-link">
+                  <svg class="linkedin-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  <a href="https://www.linkedin.com/in/marko-leinikka" target="_blank" rel="noopener">marko-leinikka</a>
+                  
+                </div>
+                <p class="speaker-card__bio">フィンランド出身で、現在京都在住のソフトウェアデベロッパー兼コンサルタントです。フィンランドでは、2019年よりヘルシンキ大学でCSを専攻し、並行してソフトウェアコンサルタントとして通信やシムレーシング業界での業務に携わっていました。2022年に京都大学への留学を機に来日しました。翌年、日本の医療業界で就職し、現在はクラウド電子薬歴システム「ソラミチ」の開発を担当しています。日本語は独学で習得し、2024年にJLPT N1に合格しました。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="./images/matoba.png" alt="的場 祐弥" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>クラウド知識ゼロからAmplifyで始める新規事業サービス開発</h3>
+                <h4>的場 祐弥</h4>
+                <p class="speaker-card__company">三菱電機株式会社</p>
+                <p class="speaker-card__role">主任</p>
+                <div class="social-link">
+                </div>
+                <p class="speaker-card__bio">2014年当社入社後、FA業界の産業用タッチパネル用エンジニアリングツールの開発に担当していました。2024年から新規事業立上げでAWS Amplifyを利用したクラウドサービス開発を担当しています。
+</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="./images/rudolf.jpg" alt="Rudolf Yoga Hutama" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>(仮)初めてのモバイルアプリ内製化：Amplifyを用いたバックエンド開発の道のり</h3>
+                <h4>Rudolf Yoga Hutama</h4>
+                <p class="speaker-card__company">シチズン時計株式会社</p>
+                <p class="speaker-card__role">経営企画部 DX推進室 エンジニア</p>
+                <div class="social-link">
+                </div>
+                <p class="speaker-card__bio">2021年4月シチズン時計株式会社入社。時計部品や回路設計などのハードウェア関連の開発を担当。<br>23年度よりソフトウェア開発に転身。<br>現在、モバイル向けアプリの「Health Scan」のスクラムチームにエンジニアとして参画。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="./images/asahara.jpg" alt="浅原 一葉" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>(仮)初めてのモバイルアプリ内製化：Amplifyを用いたバックエンド開発の道のり</h3>
+                <h4>浅原 一葉</h4>
+                <p class="speaker-card__company">シチズン・システムズ株式会社</p>
+                <p class="speaker-card__role">ヘルスケア事業部 ヘルスケア開発部 エンジニア</p>
+                <div class="social-link">
+                </div>
+                <p class="speaker-card__bio">2012年の入社以来、血圧計などの組み込みソフトウェア設計を担当。<br>2023年度よりモバイル向けアプリの「Health Scan」のスクラムチームにエンジニアとして参画。</p>
+              </div>
+            </div>
+          </article>
+          <article class="speaker-card">
+            <div class="speaker-card__content">
+              <figure class="speaker-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1809528876755988480/bZA6CANz_400x400.jpg" alt="青木 光平" loading="lazy">
+              </figure>
+              <div class="speaker-card__info">
+                <h3>新事業の開発開始から大規模化までの Amplify の実践活用</h3>
+                <h4>青木 光平</h4>
+                <p class="speaker-card__company">株式会社ピュアポムメディアラボ</p>
+                <p class="speaker-card__role">代表取締役</p>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  <a href="https://x.com/coa00" target="_blank" rel="noopener">@coa00</a>
+                </div>
+                <p class="speaker-card__bio">日本電気株式会社、KLab株式会社、リクルート、フリーランスで技術顧問、スタートアップのCTOを経験後、Purpom Media Labを設立。フロントエンド、サーバレス開発、プロダクト開発、UIUXを得意としています。 AWS主催イベントなどにも多数登壇。React/AmplifyエヴァンジェリストOSS活動、勉強会、コミュニティ支援なども行っております。</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="organizers" id="organizers">
+      <div class="section__inner organizers__inner">
+        <div class="organizers__header">
+          <h2>実行委員紹介</h2>
+          <p>
+            Amplify Japan User Groupの実行委員がカンファレンス全体の企画から当日の運営までを担当しています。
+          </p>
+        </div>
+        <div class="organizers__grid">
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/ikenyal" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1523872023264448512/ZCZYzTiQ_400x400.jpg" alt="池田 健人" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>池田 健人</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @ikenyal
+                </div>
+                <p class="organizer-role">実行委員長</p>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/dayjournal_nori" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1996851988978716672/RBU9OzUw_400x400.jpg" alt="桐本 靖規" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>桐本 靖規</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @dayjournal_nori
+                </div>
+                <p class="organizer-role">副実行委員長</p>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/fossamagna" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://avatars.githubusercontent.com/u/1638848?v=4" alt="村上 雅彦" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>村上 雅彦</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @fossamagna
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/adt0705" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1905100814290735104/QZlSvfIC_400x400.png" alt="足立 優司" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>足立 優司</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @adt0705
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/mkdev_10" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1875511209266720768/H50F_-68_400x400.jpg" alt="桒原 政睦" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>桒原 政睦</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @mkdev_10
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/tacck" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://pbs.twimg.com/profile_images/1571789838097207297/V2aYM6_A_400x400.jpg" alt="木原 卓也" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>木原 卓也</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @tacck
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/coa00" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://github.com/coa00.png" alt="青木 光平" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>青木 光平</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @coa00
+                </div>
+              </div>
+            </a>
+          </article>
+          <article class="organizer-card">
+            <a class="organizer-card__link" href="https://x.com/watilde" target="_blank" rel="noopener">
+              <figure class="organizer-card__avatar">
+                <img src="https://github.com/watilde.png" alt="Daijiro Wachi" loading="lazy">
+              </figure>
+              <div class="organizer-card__info">
+                <h3>Daijiro Wachi</h3>
+                <div class="social-link">
+                  <svg class="x-icon" viewBox="0 0 24 24" width="16" height="16">
+                    <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
+                  @watilde
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="venue" id="venue">
+      <div class="section__inner venue__inner">
+        <div class="venue__info">
+          <h2>会場アクセス</h2>
+          <p>東京都品川区上大崎3-1-1 目黒セントラルスクエア 21F セミナールーム</p>
+        </div>
+        <div class="venue__map">
+          <div class="map-placeholder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.7689623694914!2d139.71409867613013!3d35.63342177260285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b1f1dc00001%3A0xe6873177d23739a8!2z55uu6buS44K744Oz44OI44Op44Or44K544Kv44Ko44Ki!5e0!3m2!1sja!2sjp!4v1761291916607!5m2!1sja!2sjp"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="AWS Amplify Conference 会場アクセス"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="register" id="register">
+      <div class="section__inner register__inner">
+        <div>
+          <h2>参加登録</h2>
+          <p>参加登録フォームからお申し込みください。</p>
+        </div>
+        <div class="register__cta">
+          <a class="button button--primary button--block" href="https://aws-amplify-jp.connpass.com/event/374628/" target="_blank" rel="noopener">参加登録する</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="section__inner footer__inner">
+      <div>
+        <p class="footer__logo">Amplify Japan User Group</p>
+        <p>コミュニティと共に、Amplify導入の第一歩から持続的な運用まで伴走します。</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">イベント概要</a>
+        <a href="#schedule">タイムテーブル</a>
+        <a href="#speakers">登壇者</a>
+        <a href="#register">参加登録</a>
+      </div>
+      <p class="footer__copy">© <span id="js-year">2025</span> Amplify Japan User Group</p>
+    </div>
+  </footer>
+  <script>
+    const footerYear = document.getElementById("js-year");
+    if (footerYear) {
+      footerYear.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
