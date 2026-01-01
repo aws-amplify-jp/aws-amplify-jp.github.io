@@ -49,9 +49,8 @@ function renderAst(node, index = 0) {
 
 export default function Template({ data }) {
   const { markdownRemark } = data;
-  const { htmlAst, frontmatter } = markdownRemark;
+  const { htmlAst } = markdownRemark;
   const content = renderAst(htmlAst);
-  const isHomePage = frontmatter.slug === "/";
   
   return (
     <Default>

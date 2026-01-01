@@ -5,5 +5,6 @@
   "h-kishi",
   "kooooohe",
   "yosuke-matsuda",
-  "yuuu"
+  "yuuu",
+  "NakaokaRei"
 ]
