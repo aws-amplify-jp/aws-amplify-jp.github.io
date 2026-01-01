@@ -1,13 +1,11 @@
-// gatsby-browser.js
-
 import React from 'react';
 import { CacheProvider } from '@emotion/react';
-import createCache from '@emotion/cache';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import createEmotionCache from './src/createEmotionCache';
+import theme from './src/styles/theme';
 
-const cache = createCache({ key: 'css', prepend: true });
-const theme = createTheme();
+const cache = createEmotionCache();
 
 export const wrapRootElement = ({ element }) => {
   return (
