@@ -1,27 +1,36 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core";
 import { Link as GatsbyLink } from "gatsby";
-import classnames from "classnames";
+import { styled } from "@mui/material/styles";
 
-const useStyles = makeStyles((theme) => ({
-  anchor: {
-    color: "inherit",
-    textDecoration: "none",
-    "&:hover": {
-      textDecoration: "underline",
-    },
-    "&.primary": {
-      color: theme.palette.primary.main,
-    },
-    "&.contrast": {
-      color: theme.palette.primary.contrastText,
-    },
+const StyledAnchor = styled("a")(({ theme, primary, contrast }) => ({
+  color: "inherit",
+  textDecoration: "none",
+  "&:hover": {
+    textDecoration: "underline",
   },
+  ...(primary && {
+    color: theme.palette.primary.main,
+  }),
+  ...(contrast && {
+    color: theme.palette.primary.contrastText,
+  }),
+}));
+
+const StyledGatsbyLink = styled(GatsbyLink)(({ theme, primary, contrast }) => ({
+  color: "inherit",
+  textDecoration: "none",
+  "&:hover": {
+    textDecoration: "underline",
+  },
+  ...(primary && {
+    color: theme.palette.primary.main,
+  }),
+  ...(contrast && {
+    color: theme.palette.primary.contrastText,
+  }),
 }));
 
 export default function Link({ children, primary, contrast, ...all }) {
-  const classes = useStyles();
-
   let isExternal = false;
   if (all.to && all.to.startsWith("https")) {
     isExternal = true;
@@ -36,28 +45,22 @@ export default function Link({ children, primary, contrast, ...all }) {
     console.error(`Internal links should use 'to'.`);
   }
 
-  const anchorClass = classnames(
-    classes.anchor,
-    all.className,
-    { primary },
-    { contrast }
-  );
-
   return (
     <>
       {isExternal ? (
-        <a
+        <StyledAnchor
           {...all}
-          className={anchorClass}
+          primary={primary}
+          contrast={contrast}
           target="_blank"
           rel="noopener noreferrer"
         >
           {children}
-        </a>
+        </StyledAnchor>
       ) : (
-        <GatsbyLink {...all} className={anchorClass}>
+        <StyledGatsbyLink {...all} primary={primary} contrast={contrast}>
           {children}
-        </GatsbyLink>
+        </StyledGatsbyLink>
       )}
     </>
   );

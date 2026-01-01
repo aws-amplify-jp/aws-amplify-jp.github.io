@@ -1,20 +1,9 @@
-import { makeStyles } from "@material-ui/core";
+import { Box } from "@mui/material";
 import { useStaticQuery, graphql } from "gatsby";
 import React from "react";
 import Link from "../Link";
 
-const useStyles = makeStyles((_) => ({
-  root: {
-    position: "relative",
-  },
-  toReportIndexRoot: {
-    marginTop: "50px",
-    marginBottom: "50px",
-  },
-}));
-
 export default function ReportsIndex() {
-  const classes = useStyles();
   const query = useStaticQuery(graphql`
     query MyQuery {
       allMarkdownRemark {
@@ -44,7 +33,7 @@ export default function ReportsIndex() {
   }, []);
 
   return (
-    <div className={classes.root}>
+    <Box sx={{ position: "relative" }}>
       <table>
         <thead>
           <tr>
@@ -69,18 +58,16 @@ export default function ReportsIndex() {
           ))}
         </tbody>
       </table>
-    </div>
+    </Box>
   );
 }
 
 export const ToReportsIndexLink = () => {
-  const classes = useStyles();
-
   return (
-    <div className={classes.toReportIndexRoot}>
+    <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
       <Link to="/reports" primary>
         レポート一覧に戻る
       </Link>
-    </div>
+    </Box>
   );
 };
