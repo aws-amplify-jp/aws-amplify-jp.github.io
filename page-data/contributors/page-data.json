@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
-    "path": "/contributors/",
-    "result": {"data":{"markdownRemark":{"htmlAst":{"type":"element","tagName":"div","properties":{},"children":[{"type":"element","tagName":"h1","properties":{},"children":[{"type":"text","value":"Contributors"}]},{"type":"element","tagName":"md-contributors","properties":{},"children":[]}]},"frontmatter":{"slug":"/contributors","title":"コントリビューター"}}},"pageContext":{"id":"b849aa3c-c1df-528c-a2ee-3acf5cd58da4","frontmatter__slug":"/contributors","__params":{"frontmatter__slug":"contributors"}}},
-    "staticQueryHashes": ["4111035261","71520124"]}
+{"componentChunkName":"component---src-pages-markdown-remark-frontmatter-slug-js","path":"/contributors/","result":{"data":{"markdownRemark":{"htmlAst":{"type":"element","tagName":"div","properties":{},"children":[{"type":"element","tagName":"h1","properties":{},"children":[{"type":"text","value":"Contributors"}]},{"type":"element","tagName":"md-contributors","properties":{},"children":[]}]},"frontmatter":{"slug":"/contributors","title":"コントリビューター"}}},"pageContext":{"id":"b849aa3c-c1df-528c-a2ee-3acf5cd58da4","frontmatter__slug":"/contributors","__params":{"frontmatter__slug":"contributors"}}},"staticQueryHashes":["4111035261","71520124"]}
