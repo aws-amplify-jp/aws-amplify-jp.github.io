@@ -22,7 +22,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-material-ui`,
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-gtag`,
