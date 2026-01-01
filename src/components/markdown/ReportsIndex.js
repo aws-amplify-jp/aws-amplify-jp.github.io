@@ -1,7 +1,16 @@
-import { Box } from "@mui/material";
+import { styled } from "@mui/material/styles";
 import { useStaticQuery, graphql } from "gatsby";
 import React from "react";
 import Link from "../Link";
+
+const Root = styled('div')({
+  position: "relative",
+});
+
+const ToReportIndexRoot = styled('div')({
+  marginTop: "50px",
+  marginBottom: "50px",
+});
 
 export default function ReportsIndex() {
   const query = useStaticQuery(graphql`
@@ -33,7 +42,7 @@ export default function ReportsIndex() {
   }, []);
 
   return (
-    <Box sx={{ position: "relative" }}>
+    <Root>
       <table>
         <thead>
           <tr>
@@ -58,16 +67,16 @@ export default function ReportsIndex() {
           ))}
         </tbody>
       </table>
-    </Box>
+    </Root>
   );
 }
 
 export const ToReportsIndexLink = () => {
   return (
-    <Box sx={{ marginTop: "50px", marginBottom: "50px" }}>
+    <ToReportIndexRoot>
       <Link to="/reports" primary>
         レポート一覧に戻る
       </Link>
-    </Box>
+    </ToReportIndexRoot>
   );
 };

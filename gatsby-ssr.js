@@ -1,25 +1,21 @@
-const React = require("react");
-const { CacheProvider } = require("@emotion/react");
-const { renderToString } = require("react-dom/server");
-const createEmotionServer = require("@emotion/server/create-instance").default;
-const createEmotionCache = require("./src/createEmotionCache");
+// gatsby-ssr.js
 
-exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
-  const cache = createEmotionCache();
-  const { extractCriticalToChunks, constructStyleTagsFromChunks } = createEmotionServer(cache);
+import React from 'react';
+import { CacheProvider } from '@emotion/react';
+import createCache from '@emotion/cache';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 
-  const bodyHTML = renderToString(
-    <CacheProvider value={cache}>{bodyComponent}</CacheProvider>
+const cache = createCache({ key: 'css' });
+const theme = createTheme();
+
+export const wrapRootElement = ({ element }) => {
+  return (
+    <CacheProvider value={cache}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        {element}
+      </ThemeProvider>
+    </CacheProvider>
   );
-
-  const chunks = extractCriticalToChunks(bodyHTML);
-  const styles = constructStyleTagsFromChunks(chunks);
-
-  replaceBodyHTMLString(bodyHTML);
-  setHeadComponents([
-    <div
-      key="emotion-styles"
-      dangerouslySetInnerHTML={{ __html: styles }}
-    />,
-  ]);
 };

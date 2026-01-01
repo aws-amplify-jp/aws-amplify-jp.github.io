@@ -1,12 +1,14 @@
 import React from "react";
-import { Link as GatsbyLink } from "gatsby";
 import { styled } from "@mui/material/styles";
+import { Link as GatsbyLink } from "gatsby";
+import classnames from "classnames";
 
-const StyledAnchor = styled("a")(({ theme, primary, contrast }) => ({
+const linkStyles = ({ theme, primary, contrast }) => ({
   color: "inherit",
   textDecoration: "none",
+  transition: "color 0.3s ease-in-out",
   "&:hover": {
-    textDecoration: "underline",
+    color: theme.palette.primary.main,
   },
   ...(primary && {
     color: theme.palette.primary.main,
@@ -14,21 +16,11 @@ const StyledAnchor = styled("a")(({ theme, primary, contrast }) => ({
   ...(contrast && {
     color: theme.palette.primary.contrastText,
   }),
-}));
+});
 
-const StyledGatsbyLink = styled(GatsbyLink)(({ theme, primary, contrast }) => ({
-  color: "inherit",
-  textDecoration: "none",
-  "&:hover": {
-    textDecoration: "underline",
-  },
-  ...(primary && {
-    color: theme.palette.primary.main,
-  }),
-  ...(contrast && {
-    color: theme.palette.primary.contrastText,
-  }),
-}));
+const StyledAnchor = styled('a')(linkStyles);
+const StyledGatsbyLink = styled(GatsbyLink)(linkStyles);
+
 
 export default function Link({ children, primary, contrast, ...all }) {
   let isExternal = false;
@@ -45,11 +37,18 @@ export default function Link({ children, primary, contrast, ...all }) {
     console.error(`Internal links should use 'to'.`);
   }
 
+  const anchorClass = classnames(
+    all.className,
+    { primary },
+    { contrast }
+  );
+
   return (
     <>
       {isExternal ? (
         <StyledAnchor
           {...all}
+          className={anchorClass}
           primary={primary}
           contrast={contrast}
           target="_blank"
@@ -58,7 +57,12 @@ export default function Link({ children, primary, contrast, ...all }) {
           {children}
         </StyledAnchor>
       ) : (
-        <StyledGatsbyLink {...all} primary={primary} contrast={contrast}>
+        <StyledGatsbyLink 
+          {...all} 
+          className={anchorClass}
+          primary={primary}
+          contrast={contrast}
+        >
           {children}
         </StyledGatsbyLink>
       )}

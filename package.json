@@ -9,8 +9,8 @@
   ],
   "packageManager": "npm@9.6.6",
   "engines": {
-    "node": "18.20.2",
-    "npm": "9.6.6"
+    "node": "20.x",
+    "npm": "10.x"
   },
   "scripts": {
     "prestart": "npm run fetch:contents",
@@ -25,29 +25,37 @@
     "fetch:contents": "node scripts/fetchContents.js"
   },
   "dependencies": {
-    "@emotion/cache": "^11.14.0",
-    "@emotion/react": "^11.14.0",
-    "@emotion/server": "^11.11.0",
-    "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^5.16.10",
-    "@mui/material": "^5.16.10",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@gatsbyjs/reach-router": "^2.0.1",
+    "@mui/icons-material": "^5.18.0",
+    "@mui/lab": "^5.0.0-alpha.177",
+    "@mui/material": "^5.18.0",
+    "classnames": "^2.5.1",
     "gatsby": "^5.15.0",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-manifest": "^5.15.0",
-    "gatsby-plugin-react-helmet": "^6.15.0",
     "gatsby-plugin-sitemap": "^6.15.0",
     "gatsby-remark-component": "^1.1.3",
     "gatsby-source-filesystem": "^5.15.0",
     "gatsby-transformer-remark": "^6.15.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.7.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0",
-    "rehype-react": "^6.2.1"
+    "rehype-react": "^8.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5"
   },
   "devDependencies": {
-    "glob": "^7.2.3",
-    "node-fetch": "^2.7.0",
-    "uuid": "^8.3.2"
+    "glob": "^13.0.0",
+    "node-fetch": "^3.3.2",
+    "uuid": "^13.0.0"
+  },
+  "overrides": {
+    "cookie": "^0.7.2",
+    "qs": "^6.14.1",
+    "tmp": "^0.2.3",
+    "body-parser": "^1.20.3"
   }
 }

@@ -12,9 +12,8 @@ import {
   ListItemIcon,
   ListItemText,
   Box,
-  useMediaQuery,
 } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 import {
   Menu as MenuIcon,
   Event as EventIcon,
@@ -29,12 +28,47 @@ import LogoIcon from "../images/logo.svg";
 
 const drawerWidth = 240;
 
+const Root = styled('div')(({ theme }) => ({
+  display: "flex",
+  "& .icon": {
+    verticalAlign: "middle",
+  },
+  "& .logo": {
+    display: "flex",
+    alignItems: "stretch",
+  },
+  "& .title": {
+    fontSize: "1.1rem",
+    fontWeight: 500,
+    letterSpacing: "0.05em",
+  },
+  "& .drawer": {
+    width: drawerWidth,
+    flexShrink: 0,
+  },
+  "& .menuButton": {
+    [theme.breakpoints.up("lg")]: {
+      display: "none",
+    },
+  },
+  "& .drawerPaper": {
+    width: drawerWidth,
+  },
+  "& .inline": {
+    [theme.breakpoints.up("lg")]: {
+      display: "inline",
+    },
+  },
+  "& .spacer": {
+    marginBottom: "64px",
+    [theme.breakpoints.down("xs")]: {
+      marginBottom: "56px",
+    },
+  },
+}));
+
 export default function Header(props) {
   const { window } = props;
-  const theme = useTheme();
-  const isLgUp = useMediaQuery(theme.breakpoints.up("lg"));
-  const isMdDown = useMediaQuery(theme.breakpoints.down("md"));
-  const isSmDown = useMediaQuery(theme.breakpoints.down("sm"));
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -97,43 +131,45 @@ export default function Header(props) {
   );
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <AppBar position="fixed">
+    <Root>
+      <AppBar
+        component="nav"
+        sx={{
+          bgcolor: "rgba(255, 255, 255, 0.9)",
+          boxShadow: "0 4px 20px rgba(0,0,0,0.08)",
+          backdropFilter: "blur(10px)",
+        }}
+      >
         <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{
-              display: { lg: "none" },
-            }}
+            className="menuButton"
+            sx={{ color: "black" }}
           >
             <MenuIcon />
           </IconButton>
           <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
-              <Typography
-                variant="h6"
-                sx={{ fontSize: "1.1rem", fontWeight: "bold" }}
-              >
-                <Link
-                  to="/"
-                  color="inherit"
-                  sx={{ display: "flex", alignItems: "stretch" }}
-                >
+              <Typography variant="h6" className="title">
+                <Link to="/" color="inherit" className="logo" sx={{ color: "black" }}>
                   <img
-                    width="26"
-                    height="26"
+                    width="32"
+                    height="32"
                     alt="Amplifyのロゴ"
                     src={LogoIcon}
                   />
-                  &nbsp;
-                  {!isSmDown && (
-                    <Box sx={{ display: { lg: "inline" } }}>
-                      Amplify Japan User Group
-                    </Box>
-                  )}
+                  <Box sx={{ mr: 1 }} />
+                  <Box
+                    sx={{
+                      display: { xs: 'none', sm: 'inline' },
+                    }}
+                    className="inline"
+                  >
+                    Amplify Japan User Group
+                  </Box>
                   <span role="img" aria-label="日本国旗">
                     🇯🇵
                   </span>
@@ -141,7 +177,9 @@ export default function Header(props) {
               </Typography>
             </Grid>
             <Grid item>
-              {!isMdDown && (
+            <Box sx={{
+              display: { xs: 'none', md: 'block' },
+            }}>
                 <Grid
                   container
                   justifyContent="flex-end"
@@ -149,52 +187,113 @@ export default function Header(props) {
                   spacing={1}
                 >
                   <Grid item>
-                    <Link to="/events">
-                      <EventIcon sx={{ verticalAlign: "middle" }} />
+                    <Link 
+                      to="/events" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <EventIcon className="icon" sx={{ mr: 0.5 }} />
                       イベント
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/resources">
-                      <SchoolIcon sx={{ verticalAlign: "middle" }} />
+                    <Link 
+                      to="/resources" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <SchoolIcon className="icon" sx={{ mr: 0.5 }} />
                       リソース
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/reports">
-                      <DescriptionIcon sx={{ verticalAlign: "middle" }} />
+                    <Link 
+                      to="/reports" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <DescriptionIcon className="icon" sx={{ mr: 0.5 }} />
                       レポート
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/contributors" color="inherit">
-                      <PeopleIcon sx={{ verticalAlign: "middle" }} />
+                    <Link 
+                      to="/contributors" 
+                      color="inherit" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <PeopleIcon className="icon" sx={{ mr: 0.5 }} />
                       コントリビューター
                     </Link>
                   </Grid>
                   <Grid item>
-                    <Link to="/companies" color="inherit">
-                      <BusinessIcon sx={{ verticalAlign: "middle" }} />
+                    <Link 
+                      to="/companies" 
+                      color="inherit" 
+                      sx={{ 
+                        color: "black",
+                        padding: "8px 12px",
+                        borderRadius: "8px",
+                        transition: "all 0.3s ease",
+                        "&:hover": {
+                          backgroundColor: "rgba(255, 153, 0, 0.1)",
+                          transform: "translateY(-2px)",
+                        },
+                      }}
+                    >
+                      <BusinessIcon className="icon" sx={{ mr: 0.5 }} />
                       利用企業
                     </Link>
                   </Grid>
                 </Grid>
-              )}
+              </Box>
             </Grid>
           </Grid>
         </Toolbar>
       </AppBar>
-      {!isLgUp && (
-        <Box component="nav" sx={{ width: drawerWidth, flexShrink: 0 }}>
+      <Box component="nav" sx={{
+        display: { xs: 'block', lg: 'none' },
+      }} className="drawer">
           <Drawer
             container={container}
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            sx={{
-              "& .MuiDrawer-paper": {
-                width: drawerWidth,
-              },
+            PaperProps={{
+              className: "drawerPaper",
             }}
             ModalProps={{
               keepMounted: true,
@@ -203,12 +302,7 @@ export default function Header(props) {
             {ResponsiveDrawer}
           </Drawer>
         </Box>
-      )}
-      <Box
-        sx={{
-          marginBottom: { xs: "56px", sm: "64px" },
-        }}
-      />
-    </Box>
+      <Box className="spacer" />
+    </Root>
   );
 }
