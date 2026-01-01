@@ -1,25 +1,20 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { Container, Box, Grid } from "@material-ui/core";
+import { Container, Box, Grid } from "@mui/material";
 import Link from "./Link";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: "100%",
-    position: "fixed",
-    bottom: 0,
-    backgroundColor: theme.palette.primary.main,
-    height: "36px",
-  },
-}));
-
 export default function Footer() {
-  const classes = useStyles();
-
   return (
     <>
       <Box mb={5} />
-      <div className={classes.root}>
+      <Box
+        sx={{
+          width: "100%",
+          position: "fixed",
+          bottom: 0,
+          backgroundColor: "primary.main",
+          height: "36px",
+        }}
+      >
         <Container>
           <Box mx="auto" m={1}>
             <Grid container spacing={3} justifyContent="center">
@@ -39,7 +34,7 @@ export default function Footer() {
             </Grid>
           </Box>
         </Container>
-      </div>
+      </Box>
     </>
   );
 }

@@ -1,8 +1,4 @@
-// Remove server-side injected JSS styles after React hydration
-// to prevent duplicate styles and ensure proper client-side styling.
+// Remove emotion server-side injected styles after React hydration
 exports.onInitialClientRender = () => {
-  const jssStyles = document.getElementById("jss-server-side");
-  if (jssStyles && jssStyles.parentNode) {
-    jssStyles.parentNode.removeChild(jssStyles);
-  }
+  // No cleanup needed for Emotion - it handles hydration automatically
 };

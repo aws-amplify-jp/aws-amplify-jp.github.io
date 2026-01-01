@@ -1,7 +1,7 @@
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
+import CssBaseline from "@mui/material/CssBaseline";
 import theme from "../styles/theme";
-import { ThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider } from "@mui/material/styles";
 
 export default function Style({ children }) {
   return (
