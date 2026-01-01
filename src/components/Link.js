@@ -1,6 +1,5 @@
 import React from "react";
 import { Link as GatsbyLink } from "gatsby";
-import classnames from "classnames";
 import { styled } from "@mui/material/styles";
 
 const StyledAnchor = styled("a")(({ theme, primary, contrast }) => ({
