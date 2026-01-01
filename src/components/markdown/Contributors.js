@@ -5,7 +5,7 @@ import { Avatar, Tooltip, Link } from "@mui/material";
 
 const List = styled('ul')(({ theme }) => ({
   display: "grid",
-  gridTemplateColumns: `repeat(auto-fill, ${theme.spacing(7)}px)`,
+  gridTemplateColumns: `repeat(auto-fill, minmax(${theme.spacing(7)}, 1fr))`,
   gap: theme.spacing(1),
   listStyle: "none",
   padding: 0,
