@@ -41,7 +41,20 @@ const HeroBackground = styled(Box)(({ theme }) => ({
     left: 0,
     right: 0,
     bottom: 0,
-    background: "linear-gradient(135deg, rgba(255, 153, 0, 0.85) 0%, rgba(35, 47, 62, 0.75) 100%)",
+    background: `linear-gradient(
+      to bottom,
+      rgba(7, 11, 26, 0.8) 0%, /* Darker, almost black, but with a hint of existing dark background color */
+      rgba(7, 11, 26, 0.4) 50%, /* Lighter in the middle */
+      rgba(7, 11, 26, 0.8) 100% /* Darker at the bottom */
+    ), radial-gradient(
+      circle at 80% 20%,
+      rgba(255, 153, 0, 0.2) 0%, /* Subtle orange glow */
+      transparent 50%
+    ), radial-gradient(
+      circle at 20% 80%,
+      rgba(59, 130, 246, 0.15) 0%, /* Subtle blue glow */
+      transparent 50%
+    )`,
     backdropFilter: "blur(2px)",
   },
 }));
