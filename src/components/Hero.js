@@ -3,6 +3,7 @@ import { Box, Container, Typography, Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { ArrowForward } from "@mui/icons-material";
 import Link from "./Link";
+import HeroImage from "../images/hero-image.jpg";
 
 const HeroSection = styled(Box)(({ theme }) => ({
   position: "relative",
@@ -25,13 +26,13 @@ const HeroSection = styled(Box)(({ theme }) => ({
   },
 }));
 
-const HeroBackground = styled(Box)({
+const HeroBackground = styled(Box)(({ backgroundImage }) => ({
   position: "absolute",
   top: 0,
   left: 0,
   right: 0,
   bottom: 0,
-  backgroundImage: "url(/hero-image.jpg)",
+  backgroundImage: `url(${backgroundImage})`,
   backgroundSize: "cover",
   backgroundPosition: "center",
   "&::before": {
@@ -44,7 +45,7 @@ const HeroBackground = styled(Box)({
     background: "linear-gradient(135deg, rgba(255, 153, 0, 0.85) 0%, rgba(35, 47, 62, 0.75) 100%)",
     backdropFilter: "blur(2px)",
   },
-});
+}));
 
 const HeroContent = styled(Container)(({ theme }) => ({
   position: "relative",
@@ -104,7 +105,7 @@ const CTAButton = styled(Button)(({ theme }) => ({
 export default function Hero() {
   return (
     <HeroSection>
-      <HeroBackground />
+      <HeroBackground backgroundImage={HeroImage} />
       <HeroContent>
         <HeroTitle variant="h1">
           Amplify Japan User Group
