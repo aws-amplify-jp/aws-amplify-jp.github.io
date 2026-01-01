@@ -4,6 +4,7 @@ import {
   Typography,
   AppBar,
   Drawer,
+  Hidden,
   IconButton,
   Toolbar,
   Divider,
@@ -12,9 +13,8 @@ import {
   ListItemIcon,
   ListItemText,
   Box,
-  useMediaQuery,
 } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 import {
   Menu as MenuIcon,
   Event as EventIcon,
@@ -29,12 +29,46 @@ import LogoIcon from "../images/logo.svg";
 
 const drawerWidth = 240;
 
+const Root = styled('div')(({ theme }) => ({
+  display: "flex",
+  "& .icon": {
+    verticalAlign: "middle",
+  },
+  "& .logo": {
+    display: "flex",
+    alignItems: "stretch",
+  },
+  "& .title": {
+    fontSize: "1.1rem",
+    fontWeight: "bold",
+  },
+  "& .drawer": {
+    width: drawerWidth,
+    flexShrink: 0,
+  },
+  "& .menuButton": {
+    [theme.breakpoints.up("lg")]: {
+      display: "none",
+    },
+  },
+  "& .drawerPaper": {
+    width: drawerWidth,
+  },
+  "& .inline": {
+    [theme.breakpoints.up("lg")]: {
+      display: "inline",
+    },
+  },
+  "& .spacer": {
+    marginBottom: "64px",
+    [theme.breakpoints.down("xs")]: {
+      marginBottom: "56px",
+    },
+  },
+}));
+
 export default function Header(props) {
   const { window } = props;
-  const theme = useTheme();
-  const isLgUp = useMediaQuery(theme.breakpoints.up("lg"));
-  const isMdDown = useMediaQuery(theme.breakpoints.down("md"));
-  const isSmDown = useMediaQuery(theme.breakpoints.down("sm"));
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -97,7 +131,7 @@ export default function Header(props) {
   );
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Root>
       <AppBar position="fixed">
         <Toolbar>
           <IconButton
@@ -105,23 +139,14 @@ export default function Header(props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{
-              display: { lg: "none" },
-            }}
+            className="menuButton"
           >
             <MenuIcon />
           </IconButton>
           <Grid container justifyContent="space-between" alignItems="center">
             <Grid item>
-              <Typography
-                variant="h6"
-                sx={{ fontSize: "1.1rem", fontWeight: "bold" }}
-              >
-                <Link
-                  to="/"
-                  color="inherit"
-                  sx={{ display: "flex", alignItems: "stretch" }}
-                >
+              <Typography variant="h6" className="title">
+                <Link to="/" color="inherit" className="logo">
                   <img
                     width="26"
                     height="26"
@@ -129,11 +154,13 @@ export default function Header(props) {
                     src={LogoIcon}
                   />
                   &nbsp;
-                  {!isSmDown && (
-                    <Box sx={{ display: { lg: "inline" } }}>
-                      Amplify Japan User Group
-                    </Box>
-                  )}
+                  <Hidden
+                    smDown
+                    implementation="css"
+                    className="inline"
+                  >
+                    Amplify Japan User Group
+                  </Hidden>
                   <span role="img" aria-label="日本国旗">
                     🇯🇵
                   </span>
@@ -141,7 +168,7 @@ export default function Header(props) {
               </Typography>
             </Grid>
             <Grid item>
-              {!isMdDown && (
+              <Hidden mdDown implementation="css">
                 <Grid
                   container
                   justifyContent="flex-end"
@@ -150,51 +177,49 @@ export default function Header(props) {
                 >
                   <Grid item>
                     <Link to="/events">
-                      <EventIcon sx={{ verticalAlign: "middle" }} />
+                      <EventIcon className="icon" />
                       イベント
                     </Link>
                   </Grid>
                   <Grid item>
                     <Link to="/resources">
-                      <SchoolIcon sx={{ verticalAlign: "middle" }} />
+                      <SchoolIcon className="icon" />
                       リソース
                     </Link>
                   </Grid>
                   <Grid item>
                     <Link to="/reports">
-                      <DescriptionIcon sx={{ verticalAlign: "middle" }} />
+                      <DescriptionIcon className="icon" />
                       レポート
                     </Link>
                   </Grid>
                   <Grid item>
                     <Link to="/contributors" color="inherit">
-                      <PeopleIcon sx={{ verticalAlign: "middle" }} />
+                      <PeopleIcon className="icon" />
                       コントリビューター
                     </Link>
                   </Grid>
                   <Grid item>
                     <Link to="/companies" color="inherit">
-                      <BusinessIcon sx={{ verticalAlign: "middle" }} />
+                      <BusinessIcon className="icon" />
                       利用企業
                     </Link>
                   </Grid>
                 </Grid>
-              )}
+              </Hidden>
             </Grid>
           </Grid>
         </Toolbar>
       </AppBar>
-      {!isLgUp && (
-        <Box component="nav" sx={{ width: drawerWidth, flexShrink: 0 }}>
+      <Hidden lgUp implementation="css">
+        <nav className="drawer">
           <Drawer
             container={container}
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            sx={{
-              "& .MuiDrawer-paper": {
-                width: drawerWidth,
-              },
+            PaperProps={{
+              className: "drawerPaper",
             }}
             ModalProps={{
               keepMounted: true,
@@ -202,13 +227,9 @@ export default function Header(props) {
           >
             {ResponsiveDrawer}
           </Drawer>
-        </Box>
-      )}
-      <Box
-        sx={{
-          marginBottom: { xs: "56px", sm: "64px" },
-        }}
-      />
-    </Box>
+        </nav>
+      </Hidden>
+      <Box className="spacer" />
+    </Root>
   );
 }

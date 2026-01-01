@@ -1,8 +1,9 @@
 import React from "react";
-import { Link as GatsbyLink } from "gatsby";
 import { styled } from "@mui/material/styles";
+import { Link as GatsbyLink } from "gatsby";
+import classnames from "classnames";
 
-const StyledAnchor = styled("a")(({ theme, primary, contrast }) => ({
+const StyledAnchor = styled('a')(({ theme, primary, contrast }) => ({
   color: "inherit",
   textDecoration: "none",
   "&:hover": {
@@ -16,19 +17,6 @@ const StyledAnchor = styled("a")(({ theme, primary, contrast }) => ({
   }),
 }));
 
-const StyledGatsbyLink = styled(GatsbyLink)(({ theme, primary, contrast }) => ({
-  color: "inherit",
-  textDecoration: "none",
-  "&:hover": {
-    textDecoration: "underline",
-  },
-  ...(primary && {
-    color: theme.palette.primary.main,
-  }),
-  ...(contrast && {
-    color: theme.palette.primary.contrastText,
-  }),
-}));
 
 export default function Link({ children, primary, contrast, ...all }) {
   let isExternal = false;
@@ -45,22 +33,27 @@ export default function Link({ children, primary, contrast, ...all }) {
     console.error(`Internal links should use 'to'.`);
   }
 
+  const anchorClass = classnames(
+    all.className,
+    { primary },
+    { contrast }
+  );
+
   return (
     <>
       {isExternal ? (
         <StyledAnchor
           {...all}
-          primary={primary}
-          contrast={contrast}
+          className={anchorClass}
           target="_blank"
           rel="noopener noreferrer"
         >
           {children}
         </StyledAnchor>
       ) : (
-        <StyledGatsbyLink {...all} primary={primary} contrast={contrast}>
+        <GatsbyLink {...all} className={anchorClass}>
           {children}
-        </StyledGatsbyLink>
+        </GatsbyLink>
       )}
     </>
   );

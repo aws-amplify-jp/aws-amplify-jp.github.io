@@ -1,20 +1,21 @@
 import React from "react";
+import { styled } from "@mui/material/styles";
 import { Container, Box, Grid } from "@mui/material";
 import Link from "./Link";
+
+const Root = styled('div')(({ theme }) => ({
+  width: "100%",
+  position: "fixed",
+  bottom: 0,
+  backgroundColor: theme.palette.primary.main,
+  height: "36px",
+}));
 
 export default function Footer() {
   return (
     <>
       <Box mb={5} />
-      <Box
-        sx={{
-          width: "100%",
-          position: "fixed",
-          bottom: 0,
-          backgroundColor: "primary.main",
-          height: "36px",
-        }}
-      >
+      <Root>
         <Container>
           <Box mx="auto" m={1}>
             <Grid container spacing={3} justifyContent="center">
@@ -34,7 +35,7 @@ export default function Footer() {
             </Grid>
           </Box>
         </Container>
-      </Box>
+      </Root>
     </>
   );
 }
